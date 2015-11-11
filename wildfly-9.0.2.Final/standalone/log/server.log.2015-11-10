@@ -1,0 +1,360 @@
+2015-11-10 18:33:22,990 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = project2_war_exploded.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2015-11-10 18:33:22,990 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Stopped Driver service with driver-name = project2_war_exploded.war_com.mysql.jdbc.Driver_5_1
+2015-11-10 18:33:22,995 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0022: Unregistered web context: /project2_war_exploded
+2015-11-10 18:33:23,032 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 64) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'project2_war_exploded.war#NewPersistenceUnit'
+2015-11-10 18:33:23,045 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0010: Stopping weld service for deployment project2_war_exploded.war
+2015-11-10 18:33:23,073 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 64) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'project2_war_exploded.war#NewPersistenceUnit'
+2015-11-10 18:33:23,093 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment project2_war_exploded.war (runtime-name: project2_war_exploded.war) in 113ms
+2015-11-10 18:33:23,116 INFO  [org.jboss.as.server] (management-handler-thread - 7) WFLYSRV0009: Undeployed "project2_war_exploded.war" (runtime-name: "project2_war_exploded.war")
+2015-11-10 18:33:23,207 INFO  [org.jboss.as.server] (management-handler-thread - 6) WFLYSRV0211: Suspending server
+2015-11-10 18:33:23,211 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested.
+2015-11-10 18:33:23,220 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = mysql-connector-java-5.1.37-bin.jar_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2015-11-10 18:33:23,227 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2015-11-10 18:33:23,228 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0010: Unbound data source [java:/MySql]
+2015-11-10 18:33:23,232 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0019: Host default-host stopping
+2015-11-10 18:33:23,239 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Stopped Driver service with driver-name = mysql-connector-java-5.1.37-bin.jar_com.mysql.jdbc.Driver_5_1
+2015-11-10 18:33:23,246 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2015-11-10 18:33:23,282 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment mysql-connector-java-5.1.37-bin.jar (runtime-name: mysql-connector-java-5.1.37-bin.jar) in 60ms
+2015-11-10 18:33:23,282 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0008: Undertow HTTP listener default suspending
+2015-11-10 18:33:23,283 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0007: Undertow HTTP listener default stopped, was bound to /127.0.0.1:8080
+2015-11-10 18:33:23,284 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0004: Undertow 1.2.9.Final stopping
+2015-11-10 18:33:23,290 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: WildFly Full 9.0.2.Final (WildFly Core 1.0.2.Final) stopped in 60ms
+2015-11-10 18:33:42,038 INFO  [org.jboss.modules] (main) JBoss Modules version 1.4.3.Final
+2015-11-10 18:33:44,200 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2015-11-10 18:33:44,337 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: WildFly Full 9.0.2.Final (WildFly Core 1.0.2.Final) starting
+2015-11-10 18:33:44,339 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.lwawt.macosx.LWCToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	gopherProxySet = false
+	http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+	java.class.path = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/endorsed
+	java.ext.dirs = /Users/tomasfrancisco/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+	java.home = /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre
+	java.io.tmpdir = /var/folders/xq/_n0kh6cn1675tf16zknfhzsr0000gn/T/
+	java.library.path = /Users/tomasfrancisco/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_60-b27
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_60
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.60-b23
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final
+	jboss.host.name = mbp-t-train
+	jboss.modules.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = mbp-t-train
+	jboss.qualified.host.name = mbp-t-train.local
+	jboss.server.base.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone
+	jboss.server.config.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/configuration
+	jboss.server.data.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/data
+	jboss.server.deploy.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/data/content
+	jboss.server.log.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/log
+	jboss.server.name = mbp-t-train
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/configuration/logging.properties
+	module.path = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/modules
+	org.jboss.boot.log.file = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = x86_64
+	os.name = Mac OS X
+	os.version = 10.11.1
+	path.separator = :
+	socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	sun.arch.data.model = 64
+	sun.boot.class.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/classes
+	sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeBig
+	sun.java.command = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/jboss-modules.jar -mp /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/modules org.jboss.as.standalone -Djboss.home.dir=/Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final -Djboss.server.base.dir=/Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.country.format = PT
+	user.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/bin
+	user.home = /Users/tomasfrancisco
+	user.language = en
+	user.name = tomasfrancisco
+	user.timezone = Europe/Lisbon
+2015-11-10 18:33:44,340 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -D[Standalone] -XX:+UseCompressedOops -XX:+UseCompressedOops -Xms64m -Xmx512m -XX:MaxPermSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/log/server.log -Dlogging.configuration=file:/Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/configuration/logging.properties 
+2015-11-10 18:33:45,832 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 2) WFLYCTL0028: Attribute 'job-repository-type' in the resource at address '/subsystem=batch' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-11-10 18:33:45,839 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 11) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=ExampleDS' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-11-10 18:33:45,841 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 11) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=MySql' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-11-10 18:33:45,884 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2015-11-10 18:33:45,913 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.3.1.Final
+2015-11-10 18:33:45,928 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.3.1.Final
+2015-11-10 18:33:45,989 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 4.0.9.Final
+2015-11-10 18:33:45,997 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2015-11-10 18:33:46,002 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2015-11-10 18:33:46,034 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2015-11-10 18:33:46,036 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2015-11-10 18:33:46,098 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2015-11-10 18:33:46,106 INFO  [org.jboss.as.security] (MSC service thread 1-7) WFLYSEC0001: Current PicketBox version=4.9.2.Final
+2015-11-10 18:33:46,142 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2015-11-10 18:33:46,149 INFO  [org.jboss.as.connector] (MSC service thread 1-7) WFLYJCA0009: Starting JCA Subsystem (IronJacamar 1.2.5.Final)
+2015-11-10 18:33:46,170 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2015-11-10 18:33:46,130 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2015-11-10 18:33:46,201 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0003: Undertow 1.2.9.Final starting
+2015-11-10 18:33:46,202 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0003: Undertow 1.2.9.Final starting
+2015-11-10 18:33:46,206 INFO  [org.jboss.as.naming] (MSC service thread 1-4) WFLYNAM0003: Starting Naming Service
+2015-11-10 18:33:46,207 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2015-11-10 18:33:46,211 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = h2
+2015-11-10 18:33:46,527 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/welcome-content
+2015-11-10 18:33:46,545 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0012: Started server default-server.
+2015-11-10 18:33:46,560 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0018: Host default-host starting
+2015-11-10 18:33:46,694 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTP listener default listening on /127.0.0.1:8080
+2015-11-10 18:33:46,870 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2015-11-10 18:33:47,009 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-6) WFLYDS0013: Started FileSystemDeploymentService for directory /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/deployments
+2015-11-10 18:33:47,021 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "mysql-connector-java-5.1.37-bin.jar" (runtime-name: "mysql-connector-java-5.1.37-bin.jar")
+2015-11-10 18:33:47,360 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBoss Web Services - Stack CXF Server 5.0.0.Final
+2015-11-10 18:33:47,632 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2015-11-10 18:33:47,634 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.fabric.jdbc.FabricMySQLDriver (version 5.1)
+2015-11-10 18:33:47,658 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = mysql-connector-java-5.1.37-bin.jar_com.mysql.jdbc.Driver_5_1
+2015-11-10 18:33:47,657 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = mysql-connector-java-5.1.37-bin.jar_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2015-11-10 18:33:47,666 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:/MySql]
+2015-11-10 18:33:47,895 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "mysql-connector-java-5.1.37-bin.jar" (runtime-name : "mysql-connector-java-5.1.37-bin.jar")
+2015-11-10 18:33:48,109 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2015-11-10 18:33:48,111 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2015-11-10 18:33:48,111 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 9.0.2.Final (WildFly Core 1.0.2.Final) started in 7036ms - Started 246 of 428 services (218 services are lazy, passive or on-demand)
+2015-11-10 18:33:48,525 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "project2_war_exploded.war" (runtime-name: "project2_war_exploded.war")
+2015-11-10 18:33:49,486 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) WFLYJPA0002: Read persistence.xml for NewPersistenceUnit
+2015-11-10 18:33:49,685 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 18) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'project2_war_exploded.war#NewPersistenceUnit'
+2015-11-10 18:33:49,722 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 18) HHH000204: Processing PersistenceUnitInfo [
+	name: NewPersistenceUnit
+	...]
+2015-11-10 18:33:49,847 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 18) HHH000412: Hibernate Core {4.3.10.Final}
+2015-11-10 18:33:49,850 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 18) HHH000206: hibernate.properties not found
+2015-11-10 18:33:49,852 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 18) HHH000021: Bytecode provider name : javassist
+2015-11-10 18:33:50,033 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment project2_war_exploded.war
+2015-11-10 18:33:50,143 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-4) HV000001: Hibernate Validator 5.1.3.Final
+2015-11-10 18:33:50,263 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-4) JNDI bindings for session bean named PlayersEJB in deployment unit deployment "project2_war_exploded.war" are as follows:
+
+	java:global/project2_war_exploded/PlayersEJB!ejb.PlayersEJBRemote
+	java:app/project2_war_exploded/PlayersEJB!ejb.PlayersEJBRemote
+	java:module/PlayersEJB!ejb.PlayersEJBRemote
+	java:jboss/exported/project2_war_exploded/PlayersEJB!ejb.PlayersEJBRemote
+	java:global/project2_war_exploded/PlayersEJB
+	java:app/project2_war_exploded/PlayersEJB
+	java:module/PlayersEJB
+
+2015-11-10 18:33:50,477 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2015-11-10 18:33:50,478 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.fabric.jdbc.FabricMySQLDriver (version 5.1)
+2015-11-10 18:33:50,482 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0006: Starting Services for CDI deployment: project2_war_exploded.war
+2015-11-10 18:33:50,563 INFO  [org.jboss.weld.Version] (MSC service thread 1-2) WELD-000900: 2.2.16 (SP1)
+2015-11-10 18:33:50,622 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = project2_war_exploded.war_com.mysql.jdbc.Driver_5_1
+2015-11-10 18:33:50,621 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = project2_war_exploded.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2015-11-10 18:33:50,624 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0009: Starting weld service for deployment project2_war_exploded.war
+2015-11-10 18:33:50,939 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 18) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'project2_war_exploded.war#NewPersistenceUnit'
+2015-11-10 18:33:51,042 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 18) HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-11-10 18:33:51,405 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 18) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-11-10 18:33:51,575 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 18) HHH000397: Using ASTQueryTranslatorFactory
+2015-11-10 18:33:51,998 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 18) HHH000228: Running hbm2ddl schema update
+2015-11-10 18:33:51,998 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 18) HHH000102: Fetching database metadata
+2015-11-10 18:33:52,002 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 18) HHH000396: Updating schema
+2015-11-10 18:33:52,008 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 18) HHH000262: Table not found: Player
+2015-11-10 18:33:52,010 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 18) HHH000262: Table not found: Team
+2015-11-10 18:33:52,011 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 18) HHH000262: Table not found: Player
+2015-11-10 18:33:52,012 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 18) HHH000262: Table not found: Team
+2015-11-10 18:33:52,013 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 18) HHH000262: Table not found: Player
+2015-11-10 18:33:52,014 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 18) HHH000262: Table not found: Team
+2015-11-10 18:33:52,034 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 18) HHH000232: Schema update complete
+2015-11-10 18:33:52,858 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 8) WFLYUT0021: Registered web context: /project2_war_exploded
+2015-11-10 18:33:52,876 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0010: Deployed "project2_war_exploded.war" (runtime-name : "project2_war_exploded.war")
+2015-11-10 18:35:40,183 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0010: Unbound data source [java:/MySql]
+2015-11-10 18:43:00,677 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = project2_war_exploded.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2015-11-10 18:43:00,677 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0019: Stopped Driver service with driver-name = project2_war_exploded.war_com.mysql.jdbc.Driver_5_1
+2015-11-10 18:43:00,680 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 62) WFLYUT0022: Unregistered web context: /project2_war_exploded
+2015-11-10 18:43:00,712 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 63) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'project2_war_exploded.war#NewPersistenceUnit'
+2015-11-10 18:43:00,718 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0010: Stopping weld service for deployment project2_war_exploded.war
+2015-11-10 18:43:00,757 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 63) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'project2_war_exploded.war#NewPersistenceUnit'
+2015-11-10 18:43:00,787 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment project2_war_exploded.war (runtime-name: project2_war_exploded.war) in 112ms
+2015-11-10 18:43:00,793 INFO  [org.jboss.as.server] (management-handler-thread - 7) WFLYSRV0009: Undeployed "project2_war_exploded.war" (runtime-name: "project2_war_exploded.war")
+2015-11-10 18:43:00,865 INFO  [org.jboss.as.server] (management-handler-thread - 6) WFLYSRV0211: Suspending server
+2015-11-10 18:43:00,868 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested.
+2015-11-10 18:43:00,874 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = mysql-connector-java-5.1.37-bin.jar_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2015-11-10 18:43:00,884 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2015-11-10 18:43:00,894 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = mysql-connector-java-5.1.37-bin.jar_com.mysql.jdbc.Driver_5_1
+2015-11-10 18:43:00,921 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0019: Host default-host stopping
+2015-11-10 18:43:00,941 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2015-11-10 18:43:00,943 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0008: Undertow HTTP listener default suspending
+2015-11-10 18:43:00,948 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment mysql-connector-java-5.1.37-bin.jar (runtime-name: mysql-connector-java-5.1.37-bin.jar) in 72ms
+2015-11-10 18:43:00,966 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0007: Undertow HTTP listener default stopped, was bound to /127.0.0.1:8080
+2015-11-10 18:43:00,969 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0004: Undertow 1.2.9.Final stopping
+2015-11-10 18:43:00,980 INFO  [org.jboss.as] (MSC service thread 1-5) WFLYSRV0050: WildFly Full 9.0.2.Final (WildFly Core 1.0.2.Final) stopped in 106ms
+2015-11-10 18:43:11,701 INFO  [org.jboss.modules] (main) JBoss Modules version 1.4.3.Final
+2015-11-10 18:43:13,228 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2015-11-10 18:43:13,339 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: WildFly Full 9.0.2.Final (WildFly Core 1.0.2.Final) starting
+2015-11-10 18:43:13,343 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.lwawt.macosx.LWCToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	gopherProxySet = false
+	http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+	java.class.path = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/endorsed
+	java.ext.dirs = /Users/tomasfrancisco/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+	java.home = /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre
+	java.io.tmpdir = /var/folders/xq/_n0kh6cn1675tf16zknfhzsr0000gn/T/
+	java.library.path = /Users/tomasfrancisco/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_60-b27
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_60
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.60-b23
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final
+	jboss.host.name = mbp-t-train
+	jboss.modules.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = mbp-t-train
+	jboss.qualified.host.name = mbp-t-train.local
+	jboss.server.base.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone
+	jboss.server.config.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/configuration
+	jboss.server.data.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/data
+	jboss.server.deploy.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/data/content
+	jboss.server.log.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/log
+	jboss.server.name = mbp-t-train
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/configuration/logging.properties
+	module.path = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/modules
+	org.jboss.boot.log.file = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = x86_64
+	os.name = Mac OS X
+	os.version = 10.11.1
+	path.separator = :
+	socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	sun.arch.data.model = 64
+	sun.boot.class.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/classes
+	sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeBig
+	sun.java.command = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/jboss-modules.jar -mp /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/modules org.jboss.as.standalone -Djboss.home.dir=/Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final -Djboss.server.base.dir=/Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.country.format = PT
+	user.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/bin
+	user.home = /Users/tomasfrancisco
+	user.language = en
+	user.name = tomasfrancisco
+	user.timezone = Europe/Lisbon
+2015-11-10 18:43:13,345 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -D[Standalone] -XX:+UseCompressedOops -XX:+UseCompressedOops -Xms64m -Xmx512m -XX:MaxPermSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/log/server.log -Dlogging.configuration=file:/Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/configuration/logging.properties 
+2015-11-10 18:43:14,606 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 8) WFLYCTL0028: Attribute 'job-repository-type' in the resource at address '/subsystem=batch' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-11-10 18:43:14,613 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 18) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=ExampleDS' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-11-10 18:43:14,675 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2015-11-10 18:43:14,698 INFO  [org.xnio] (MSC service thread 1-3) XNIO version 3.3.1.Final
+2015-11-10 18:43:14,708 INFO  [org.xnio.nio] (MSC service thread 1-3) XNIO NIO Implementation Version 3.3.1.Final
+2015-11-10 18:43:14,752 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2015-11-10 18:43:14,758 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2015-11-10 18:43:14,773 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2015-11-10 18:43:14,803 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2015-11-10 18:43:14,804 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2015-11-10 18:43:14,819 INFO  [org.jboss.as.naming] (MSC service thread 1-5) WFLYNAM0003: Starting Naming Service
+2015-11-10 18:43:14,820 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-5) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2015-11-10 18:43:14,842 INFO  [org.jboss.remoting] (MSC service thread 1-3) JBoss Remoting version 4.0.9.Final
+2015-11-10 18:43:14,844 INFO  [org.jboss.as.connector] (MSC service thread 1-4) WFLYJCA0009: Starting JCA Subsystem (IronJacamar 1.2.5.Final)
+2015-11-10 18:43:14,929 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = h2
+2015-11-10 18:43:14,934 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2015-11-10 18:43:14,934 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2015-11-10 18:43:14,966 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2015-11-10 18:43:14,968 INFO  [org.jboss.as.security] (MSC service thread 1-1) WFLYSEC0001: Current PicketBox version=4.9.2.Final
+2015-11-10 18:43:15,011 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0003: Undertow 1.2.9.Final starting
+2015-11-10 18:43:15,019 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0003: Undertow 1.2.9.Final starting
+2015-11-10 18:43:15,319 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/welcome-content
+2015-11-10 18:43:15,350 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0012: Started server default-server.
+2015-11-10 18:43:15,355 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0018: Host default-host starting
+2015-11-10 18:43:15,465 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTP listener default listening on /127.0.0.1:8080
+2015-11-10 18:43:15,592 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2015-11-10 18:43:15,730 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-4) WFLYDS0013: Started FileSystemDeploymentService for directory /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/deployments
+2015-11-10 18:43:15,738 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "mysql-connector-java-5.1.37-bin.jar" (runtime-name: "mysql-connector-java-5.1.37-bin.jar")
+2015-11-10 18:43:16,029 INFO  [org.jboss.ws.common.management] (MSC service thread 1-6) JBWS022052: Starting JBoss Web Services - Stack CXF Server 5.0.0.Final
+2015-11-10 18:43:16,175 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2015-11-10 18:43:16,177 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.fabric.jdbc.FabricMySQLDriver (version 5.1)
+2015-11-10 18:43:16,192 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = mysql-connector-java-5.1.37-bin.jar_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2015-11-10 18:43:16,197 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = mysql-connector-java-5.1.37-bin.jar_com.mysql.jdbc.Driver_5_1
+2015-11-10 18:43:16,462 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "mysql-connector-java-5.1.37-bin.jar" (runtime-name : "mysql-connector-java-5.1.37-bin.jar")
+2015-11-10 18:43:16,598 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2015-11-10 18:43:16,599 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2015-11-10 18:43:16,599 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 9.0.2.Final (WildFly Core 1.0.2.Final) started in 5670ms - Started 241 of 423 services (218 services are lazy, passive or on-demand)
+2015-11-10 18:43:17,165 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "cloudyfree_war_exploded.war" (runtime-name: "cloudyfree_war_exploded.war")
+2015-11-10 18:43:17,497 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 19) WFLYUT0021: Registered web context: /cloudyfree_war_exploded
+2015-11-10 18:43:17,512 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0010: Deployed "cloudyfree_war_exploded.war" (runtime-name : "cloudyfree_war_exploded.war")
+2015-11-10 21:57:31,895 INFO  [org.jboss.as.controller.management-deprecated] (XNIO-1 task-9) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=Cloudyfree' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-11-10 21:57:31,948 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:/Cloudyfree]
+2015-11-10 21:57:32,319 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:/Cloudyfree]
+2015-11-10 21:57:34,608 INFO  [org.jboss.as.controller.management-deprecated] (XNIO-1 task-6) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=Cloudyfree' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-11-10 21:57:34,618 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:/Cloudyfree]

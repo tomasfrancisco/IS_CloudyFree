@@ -1,0 +1,1354 @@
+2015-11-09 22:09:17,653 INFO  [org.jboss.modules] (main) JBoss Modules version 1.4.3.Final
+2015-11-09 22:09:18,144 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2015-11-09 22:09:18,443 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Full 9.0.2.Final (WildFly Core 1.0.2.Final) starting
+2015-11-09 22:09:18,446 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.lwawt.macosx.LWCToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	gopherProxySet = false
+	http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+	java.class.path = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/endorsed
+	java.ext.dirs = /Users/tomasfrancisco/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+	java.home = /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre
+	java.io.tmpdir = /var/folders/xq/_n0kh6cn1675tf16zknfhzsr0000gn/T/
+	java.library.path = /Users/tomasfrancisco/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_60-b27
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_60
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.60-b23
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final
+	jboss.host.name = mbp-t-train
+	jboss.modules.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = mbp-t-train
+	jboss.qualified.host.name = mbp-t-train.lan
+	jboss.server.base.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone
+	jboss.server.config.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/configuration
+	jboss.server.data.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/data
+	jboss.server.deploy.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/data/content
+	jboss.server.log.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/log
+	jboss.server.name = mbp-t-train
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/configuration/logging.properties
+	module.path = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/modules
+	org.jboss.boot.log.file = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = x86_64
+	os.name = Mac OS X
+	os.version = 10.11.1
+	path.separator = :
+	socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	sun.arch.data.model = 64
+	sun.boot.class.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/classes
+	sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeBig
+	sun.java.command = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/jboss-modules.jar -mp /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/modules org.jboss.as.standalone -Djboss.home.dir=/Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final -Djboss.server.base.dir=/Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.country.format = PT
+	user.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/bin
+	user.home = /Users/tomasfrancisco
+	user.language = en
+	user.name = tomasfrancisco
+	user.timezone = Europe/Lisbon
+2015-11-09 22:09:18,448 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -D[Standalone] -XX:+UseCompressedOops -XX:+UseCompressedOops -Xms64m -Xmx512m -XX:MaxPermSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/log/server.log -Dlogging.configuration=file:/Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/configuration/logging.properties 
+2015-11-09 22:09:20,378 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 18) WFLYCTL0028: Attribute 'job-repository-type' in the resource at address '/subsystem=batch' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-11-09 22:09:20,379 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 14) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=ExampleDS' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-11-09 22:09:20,413 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2015-11-09 22:09:20,443 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.3.1.Final
+2015-11-09 22:09:20,458 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.3.1.Final
+2015-11-09 22:09:20,523 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2015-11-09 22:09:20,535 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2015-11-09 22:09:20,542 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2015-11-09 22:09:20,674 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 4.0.9.Final
+2015-11-09 22:09:20,697 INFO  [org.jboss.as.connector] (MSC service thread 1-4) WFLYJCA0009: Starting JCA Subsystem (IronJacamar 1.2.5.Final)
+2015-11-09 22:09:20,699 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = h2
+2015-11-09 22:09:20,773 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2015-11-09 22:09:20,785 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2015-11-09 22:09:20,792 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2015-11-09 22:09:20,792 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2015-11-09 22:09:20,837 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2015-11-09 22:09:20,837 INFO  [org.jboss.as.security] (MSC service thread 1-8) WFLYSEC0001: Current PicketBox version=4.9.2.Final
+2015-11-09 22:09:20,866 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0003: Undertow 1.2.9.Final starting
+2015-11-09 22:09:20,866 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0003: Undertow 1.2.9.Final starting
+2015-11-09 22:09:20,907 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2015-11-09 22:09:20,908 INFO  [org.jboss.as.naming] (MSC service thread 1-6) WFLYNAM0003: Starting Naming Service
+2015-11-09 22:09:21,308 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/welcome-content
+2015-11-09 22:09:21,349 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0012: Started server default-server.
+2015-11-09 22:09:21,409 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0018: Host default-host starting
+2015-11-09 22:09:21,528 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTP listener default listening on /127.0.0.1:8080
+2015-11-09 22:09:21,875 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2015-11-09 22:09:22,035 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-7) WFLYDS0013: Started FileSystemDeploymentService for directory /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/deployments
+2015-11-09 22:09:22,277 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBoss Web Services - Stack CXF Server 5.0.0.Final
+2015-11-09 22:09:22,474 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2015-11-09 22:09:22,475 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2015-11-09 22:09:22,475 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 9.0.2.Final (WildFly Core 1.0.2.Final) started in 5592ms - Started 203 of 379 services (210 services are lazy, passive or on-demand)
+2015-11-09 22:12:19,941 INFO  [org.jboss.as.repository] (XNIO-1 task-6) WFLYDR0001: Content added at location /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/data/content/4e/36a205cc9553129db1cb6b36399f84f266fdd7/content
+2015-11-09 22:12:19,963 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "mysql-connector-java-5.1.37-bin.jar" (runtime-name: "mysql-connector-java-5.1.37-bin.jar")
+2015-11-09 22:12:20,356 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2015-11-09 22:12:20,357 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.fabric.jdbc.FabricMySQLDriver (version 5.1)
+2015-11-09 22:12:20,380 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = mysql-connector-java-5.1.37-bin.jar_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2015-11-09 22:12:20,381 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = mysql-connector-java-5.1.37-bin.jar_com.mysql.jdbc.Driver_5_1
+2015-11-09 22:12:20,579 INFO  [org.jboss.as.server] (XNIO-1 task-6) WFLYSRV0010: Deployed "mysql-connector-java-5.1.37-bin.jar" (runtime-name : "mysql-connector-java-5.1.37-bin.jar")
+2015-11-09 22:13:17,132 INFO  [org.jboss.as.controller.management-deprecated] (XNIO-1 task-2) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=MySql' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-11-09 22:13:17,149 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:/MySql]
+2015-11-09 22:13:17,549 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (XNIO-1 task-3) IJ000604: Throwable while attempting to get a new connection: null: javax.resource.ResourceException: IJ031084: Unable to create connection
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:336)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.getLocalManagedConnection(LocalManagedConnectionFactory.java:343)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createManagedConnection(LocalManagedConnectionFactory.java:278)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreArrayListManagedConnectionPool.createConnectionEventListener(SemaphoreArrayListManagedConnectionPool.java:1289)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreArrayListManagedConnectionPool.getConnection(SemaphoreArrayListManagedConnectionPool.java:492)
+	at org.jboss.jca.core.connectionmanager.pool.AbstractPool.internalTestConnection(AbstractPool.java:1071)
+	at org.jboss.jca.core.connectionmanager.pool.strategy.OnePool.testConnection(OnePool.java:91)
+	at org.jboss.as.connector.subsystems.common.pool.PoolOperations$TestConnectionInPool.invokeCommandOn(PoolOperations.java:232)
+	at org.jboss.as.connector.subsystems.common.pool.PoolOperations$1.execute(PoolOperations.java:88)
+	at org.jboss.as.controller.AbstractOperationContext.executeStep(AbstractOperationContext.java:803)
+	at org.jboss.as.controller.AbstractOperationContext.doCompleteStep(AbstractOperationContext.java:601)
+	at org.jboss.as.controller.AbstractOperationContext.completeStepInternal(AbstractOperationContext.java:354)
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:330)
+	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1183)
+	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:362)
+	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:218)
+	at org.jboss.as.domain.http.server.DomainApiHandler.handleRequest(DomainApiHandler.java:208)
+	at io.undertow.server.handlers.encoding.EncodingHandler.handleRequest(EncodingHandler.java:72)
+	at org.jboss.as.domain.http.server.security.SubjectDoAsHandler$1.run(SubjectDoAsHandler.java:72)
+	at org.jboss.as.domain.http.server.security.SubjectDoAsHandler$1.run(SubjectDoAsHandler.java:68)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:92)
+	at org.jboss.as.domain.http.server.security.SubjectDoAsHandler.handleRequest(SubjectDoAsHandler.java:68)
+	at org.jboss.as.domain.http.server.security.SubjectDoAsHandler.handleRequest(SubjectDoAsHandler.java:63)
+	at io.undertow.server.handlers.BlockingHandler.handleRequest(BlockingHandler.java:56)
+	at org.jboss.as.domain.http.server.DomainApiCheckHandler.handleRequest(DomainApiCheckHandler.java:95)
+	at io.undertow.security.handlers.AuthenticationCallHandler.handleRequest(AuthenticationCallHandler.java:52)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:199)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:774)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.sql.SQLException: Access denied for user 'admin'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:959)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3870)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3806)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1686)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1207)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2254)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2285)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2084)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:795)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:400)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:327)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:312)
+	... 32 more
+
+2015-11-09 22:13:17,552 ERROR [org.jboss.as.controller.management-operation] (XNIO-1 task-3) WFLYCTL0013: Operation ("test-connection-in-pool") failed - address: ([
+    ("subsystem" => "datasources"),
+    ("data-source" => "MySql")
+]) - failure description: "WFLYJCA0040: failed to invoke operation: WFLYJCA0047: Connection is not valid"
+2015-11-09 22:13:17,585 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0010: Unbound data source [java:/MySql]
+2015-11-09 22:13:34,179 INFO  [org.jboss.as.controller.management-deprecated] (XNIO-1 task-5) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=MySql' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-11-09 22:13:34,187 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:/MySql]
+2015-11-09 22:13:34,247 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (XNIO-1 task-9) IJ000604: Throwable while attempting to get a new connection: null: javax.resource.ResourceException: IJ031084: Unable to create connection
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:336)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.getLocalManagedConnection(LocalManagedConnectionFactory.java:343)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createManagedConnection(LocalManagedConnectionFactory.java:278)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreArrayListManagedConnectionPool.createConnectionEventListener(SemaphoreArrayListManagedConnectionPool.java:1289)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreArrayListManagedConnectionPool.getConnection(SemaphoreArrayListManagedConnectionPool.java:492)
+	at org.jboss.jca.core.connectionmanager.pool.AbstractPool.internalTestConnection(AbstractPool.java:1071)
+	at org.jboss.jca.core.connectionmanager.pool.strategy.OnePool.testConnection(OnePool.java:91)
+	at org.jboss.as.connector.subsystems.common.pool.PoolOperations$TestConnectionInPool.invokeCommandOn(PoolOperations.java:232)
+	at org.jboss.as.connector.subsystems.common.pool.PoolOperations$1.execute(PoolOperations.java:88)
+	at org.jboss.as.controller.AbstractOperationContext.executeStep(AbstractOperationContext.java:803)
+	at org.jboss.as.controller.AbstractOperationContext.doCompleteStep(AbstractOperationContext.java:601)
+	at org.jboss.as.controller.AbstractOperationContext.completeStepInternal(AbstractOperationContext.java:354)
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:330)
+	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1183)
+	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:362)
+	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:218)
+	at org.jboss.as.domain.http.server.DomainApiHandler.handleRequest(DomainApiHandler.java:208)
+	at io.undertow.server.handlers.encoding.EncodingHandler.handleRequest(EncodingHandler.java:72)
+	at org.jboss.as.domain.http.server.security.SubjectDoAsHandler$1.run(SubjectDoAsHandler.java:72)
+	at org.jboss.as.domain.http.server.security.SubjectDoAsHandler$1.run(SubjectDoAsHandler.java:68)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:92)
+	at org.jboss.as.domain.http.server.security.SubjectDoAsHandler.handleRequest(SubjectDoAsHandler.java:68)
+	at org.jboss.as.domain.http.server.security.SubjectDoAsHandler.handleRequest(SubjectDoAsHandler.java:63)
+	at io.undertow.server.handlers.BlockingHandler.handleRequest(BlockingHandler.java:56)
+	at org.jboss.as.domain.http.server.DomainApiCheckHandler.handleRequest(DomainApiCheckHandler.java:95)
+	at io.undertow.security.handlers.AuthenticationCallHandler.handleRequest(AuthenticationCallHandler.java:52)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:199)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:774)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.sql.SQLException: Access denied for user 'admin'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:959)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3870)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3806)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1686)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1207)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2254)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2285)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2084)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:795)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:400)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:327)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:312)
+	... 32 more
+
+2015-11-09 22:13:34,250 ERROR [org.jboss.as.controller.management-operation] (XNIO-1 task-9) WFLYCTL0013: Operation ("test-connection-in-pool") failed - address: ([
+    ("subsystem" => "datasources"),
+    ("data-source" => "MySql")
+]) - failure description: "WFLYJCA0040: failed to invoke operation: WFLYJCA0047: Connection is not valid"
+2015-11-09 22:13:34,285 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0010: Unbound data source [java:/MySql]
+2015-11-09 22:14:54,535 INFO  [org.jboss.as.controller.management-deprecated] (XNIO-1 task-3) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=MySql' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-11-09 22:14:54,540 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:/MySql]
+2015-11-09 22:14:54,574 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (XNIO-1 task-7) IJ000604: Throwable while attempting to get a new connection: null: javax.resource.ResourceException: IJ031084: Unable to create connection
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:336)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.getLocalManagedConnection(LocalManagedConnectionFactory.java:343)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createManagedConnection(LocalManagedConnectionFactory.java:278)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreArrayListManagedConnectionPool.createConnectionEventListener(SemaphoreArrayListManagedConnectionPool.java:1289)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreArrayListManagedConnectionPool.getConnection(SemaphoreArrayListManagedConnectionPool.java:492)
+	at org.jboss.jca.core.connectionmanager.pool.AbstractPool.internalTestConnection(AbstractPool.java:1071)
+	at org.jboss.jca.core.connectionmanager.pool.strategy.OnePool.testConnection(OnePool.java:91)
+	at org.jboss.as.connector.subsystems.common.pool.PoolOperations$TestConnectionInPool.invokeCommandOn(PoolOperations.java:232)
+	at org.jboss.as.connector.subsystems.common.pool.PoolOperations$1.execute(PoolOperations.java:88)
+	at org.jboss.as.controller.AbstractOperationContext.executeStep(AbstractOperationContext.java:803)
+	at org.jboss.as.controller.AbstractOperationContext.doCompleteStep(AbstractOperationContext.java:601)
+	at org.jboss.as.controller.AbstractOperationContext.completeStepInternal(AbstractOperationContext.java:354)
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:330)
+	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1183)
+	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:362)
+	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:218)
+	at org.jboss.as.domain.http.server.DomainApiHandler.handleRequest(DomainApiHandler.java:208)
+	at io.undertow.server.handlers.encoding.EncodingHandler.handleRequest(EncodingHandler.java:72)
+	at org.jboss.as.domain.http.server.security.SubjectDoAsHandler$1.run(SubjectDoAsHandler.java:72)
+	at org.jboss.as.domain.http.server.security.SubjectDoAsHandler$1.run(SubjectDoAsHandler.java:68)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:92)
+	at org.jboss.as.domain.http.server.security.SubjectDoAsHandler.handleRequest(SubjectDoAsHandler.java:68)
+	at org.jboss.as.domain.http.server.security.SubjectDoAsHandler.handleRequest(SubjectDoAsHandler.java:63)
+	at io.undertow.server.handlers.BlockingHandler.handleRequest(BlockingHandler.java:56)
+	at org.jboss.as.domain.http.server.DomainApiCheckHandler.handleRequest(DomainApiCheckHandler.java:95)
+	at io.undertow.security.handlers.AuthenticationCallHandler.handleRequest(AuthenticationCallHandler.java:52)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:199)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:774)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.sql.SQLException: Access denied for user 'admin'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:959)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3870)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3806)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1686)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1207)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2254)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2285)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2084)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:795)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:400)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:327)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:312)
+	... 32 more
+
+2015-11-09 22:14:54,576 ERROR [org.jboss.as.controller.management-operation] (XNIO-1 task-7) WFLYCTL0013: Operation ("test-connection-in-pool") failed - address: ([
+    ("subsystem" => "datasources"),
+    ("data-source" => "MySql")
+]) - failure description: "WFLYJCA0040: failed to invoke operation: WFLYJCA0047: Connection is not valid"
+2015-11-09 22:14:54,593 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0010: Unbound data source [java:/MySql]
+2015-11-09 22:15:17,015 INFO  [org.jboss.as.controller.management-deprecated] (XNIO-1 task-9) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=MySql' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-11-09 22:15:17,028 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:/MySql]
+2015-11-09 22:15:55,213 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0211: Suspending server
+2015-11-09 22:15:55,227 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested.
+2015-11-09 22:15:55,250 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0019: Stopped Driver service with driver-name = mysql-connector-java-5.1.37-bin.jar_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2015-11-09 22:15:55,261 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2015-11-09 22:15:55,261 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:/MySql]
+2015-11-09 22:15:55,265 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2015-11-09 22:15:55,266 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Stopped Driver service with driver-name = mysql-connector-java-5.1.37-bin.jar_com.mysql.jdbc.Driver_5_1
+2015-11-09 22:15:55,269 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0019: Host default-host stopping
+2015-11-09 22:15:55,313 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-4) HV000001: Hibernate Validator 5.1.3.Final
+2015-11-09 22:15:55,552 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment mysql-connector-java-5.1.37-bin.jar (runtime-name: mysql-connector-java-5.1.37-bin.jar) in 314ms
+2015-11-09 22:15:55,553 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0008: Undertow HTTP listener default suspending
+2015-11-09 22:15:55,555 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0007: Undertow HTTP listener default stopped, was bound to /127.0.0.1:8080
+2015-11-09 22:15:55,556 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0004: Undertow 1.2.9.Final stopping
+2015-11-09 22:15:55,561 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0050: WildFly Full 9.0.2.Final (WildFly Core 1.0.2.Final) stopped in 320ms
+2015-11-09 22:15:58,190 INFO  [org.jboss.modules] (main) JBoss Modules version 1.4.3.Final
+2015-11-09 22:15:58,679 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2015-11-09 22:15:58,882 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Full 9.0.2.Final (WildFly Core 1.0.2.Final) starting
+2015-11-09 22:15:58,884 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.lwawt.macosx.LWCToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	gopherProxySet = false
+	http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+	java.class.path = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/endorsed
+	java.ext.dirs = /Users/tomasfrancisco/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+	java.home = /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre
+	java.io.tmpdir = /var/folders/xq/_n0kh6cn1675tf16zknfhzsr0000gn/T/
+	java.library.path = /Users/tomasfrancisco/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_60-b27
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_60
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.60-b23
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final
+	jboss.host.name = mbp-t-train
+	jboss.modules.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = mbp-t-train
+	jboss.qualified.host.name = mbp-t-train.lan
+	jboss.server.base.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone
+	jboss.server.config.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/configuration
+	jboss.server.data.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/data
+	jboss.server.deploy.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/data/content
+	jboss.server.log.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/log
+	jboss.server.name = mbp-t-train
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/configuration/logging.properties
+	module.path = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/modules
+	org.jboss.boot.log.file = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = x86_64
+	os.name = Mac OS X
+	os.version = 10.11.1
+	path.separator = :
+	socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	sun.arch.data.model = 64
+	sun.boot.class.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/classes
+	sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeBig
+	sun.java.command = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/jboss-modules.jar -mp /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/modules org.jboss.as.standalone -Djboss.home.dir=/Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final -Djboss.server.base.dir=/Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.country.format = PT
+	user.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/bin
+	user.home = /Users/tomasfrancisco
+	user.language = en
+	user.name = tomasfrancisco
+	user.timezone = Europe/Lisbon
+2015-11-09 22:15:58,885 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -D[Standalone] -XX:+UseCompressedOops -XX:+UseCompressedOops -Xms64m -Xmx512m -XX:MaxPermSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/log/server.log -Dlogging.configuration=file:/Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/configuration/logging.properties 
+2015-11-09 22:16:00,549 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 19) WFLYCTL0028: Attribute 'job-repository-type' in the resource at address '/subsystem=batch' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-11-09 22:16:00,549 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 14) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=ExampleDS' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-11-09 22:16:00,556 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 14) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=MySql' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-11-09 22:16:00,603 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2015-11-09 22:16:00,630 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.3.1.Final
+2015-11-09 22:16:00,639 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.3.1.Final
+2015-11-09 22:16:00,702 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 4.0.9.Final
+2015-11-09 22:16:00,715 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2015-11-09 22:16:00,725 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2015-11-09 22:16:00,730 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2015-11-09 22:16:00,743 INFO  [org.jboss.as.connector] (MSC service thread 1-3) WFLYJCA0009: Starting JCA Subsystem (IronJacamar 1.2.5.Final)
+2015-11-09 22:16:00,814 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = h2
+2015-11-09 22:16:00,879 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2015-11-09 22:16:00,949 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2015-11-09 22:16:00,961 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2015-11-09 22:16:00,964 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2015-11-09 22:16:00,977 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2015-11-09 22:16:00,983 INFO  [org.jboss.as.security] (MSC service thread 1-7) WFLYSEC0001: Current PicketBox version=4.9.2.Final
+2015-11-09 22:16:01,199 INFO  [org.jboss.as.naming] (MSC service thread 1-8) WFLYNAM0003: Starting Naming Service
+2015-11-09 22:16:01,200 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2015-11-09 22:16:01,221 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0003: Undertow 1.2.9.Final starting
+2015-11-09 22:16:01,222 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0003: Undertow 1.2.9.Final starting
+2015-11-09 22:16:01,258 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/welcome-content
+2015-11-09 22:16:01,264 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0012: Started server default-server.
+2015-11-09 22:16:01,286 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0018: Host default-host starting
+2015-11-09 22:16:01,448 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTP listener default listening on /127.0.0.1:8080
+2015-11-09 22:16:01,741 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2015-11-09 22:16:01,868 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) WFLYDS0013: Started FileSystemDeploymentService for directory /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/deployments
+2015-11-09 22:16:01,936 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "mysql-connector-java-5.1.37-bin.jar" (runtime-name: "mysql-connector-java-5.1.37-bin.jar")
+2015-11-09 22:16:02,165 INFO  [org.jboss.ws.common.management] (MSC service thread 1-7) JBWS022052: Starting JBoss Web Services - Stack CXF Server 5.0.0.Final
+2015-11-09 22:16:02,355 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2015-11-09 22:16:02,357 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.fabric.jdbc.FabricMySQLDriver (version 5.1)
+2015-11-09 22:16:02,376 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = mysql-connector-java-5.1.37-bin.jar_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2015-11-09 22:16:02,389 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = mysql-connector-java-5.1.37-bin.jar_com.mysql.jdbc.Driver_5_1
+2015-11-09 22:16:02,394 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:/MySql]
+2015-11-09 22:16:02,651 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "mysql-connector-java-5.1.37-bin.jar" (runtime-name : "mysql-connector-java-5.1.37-bin.jar")
+2015-11-09 22:16:02,829 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2015-11-09 22:16:02,829 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2015-11-09 22:16:02,830 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 9.0.2.Final (WildFly Core 1.0.2.Final) started in 5446ms - Started 246 of 428 services (218 services are lazy, passive or on-demand)
+2015-11-09 22:16:25,104 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0010: Unbound data source [java:/MySql]
+2015-11-09 22:22:19,924 INFO  [org.jboss.as.controller.management-deprecated] (XNIO-1 task-6) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=MySql' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-11-09 22:22:19,963 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:/MySql]
+2015-11-09 22:22:20,595 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (XNIO-1 task-1) IJ000604: Throwable while attempting to get a new connection: null: javax.resource.ResourceException: IJ031084: Unable to create connection
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:336)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.getLocalManagedConnection(LocalManagedConnectionFactory.java:343)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createManagedConnection(LocalManagedConnectionFactory.java:278)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreArrayListManagedConnectionPool.createConnectionEventListener(SemaphoreArrayListManagedConnectionPool.java:1289)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreArrayListManagedConnectionPool.getConnection(SemaphoreArrayListManagedConnectionPool.java:492)
+	at org.jboss.jca.core.connectionmanager.pool.AbstractPool.internalTestConnection(AbstractPool.java:1071)
+	at org.jboss.jca.core.connectionmanager.pool.strategy.OnePool.testConnection(OnePool.java:91)
+	at org.jboss.as.connector.subsystems.common.pool.PoolOperations$TestConnectionInPool.invokeCommandOn(PoolOperations.java:232)
+	at org.jboss.as.connector.subsystems.common.pool.PoolOperations$1.execute(PoolOperations.java:88)
+	at org.jboss.as.controller.AbstractOperationContext.executeStep(AbstractOperationContext.java:803)
+	at org.jboss.as.controller.AbstractOperationContext.doCompleteStep(AbstractOperationContext.java:601)
+	at org.jboss.as.controller.AbstractOperationContext.completeStepInternal(AbstractOperationContext.java:354)
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:330)
+	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1183)
+	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:362)
+	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:218)
+	at org.jboss.as.domain.http.server.DomainApiHandler.handleRequest(DomainApiHandler.java:208)
+	at io.undertow.server.handlers.encoding.EncodingHandler.handleRequest(EncodingHandler.java:72)
+	at org.jboss.as.domain.http.server.security.SubjectDoAsHandler$1.run(SubjectDoAsHandler.java:72)
+	at org.jboss.as.domain.http.server.security.SubjectDoAsHandler$1.run(SubjectDoAsHandler.java:68)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:92)
+	at org.jboss.as.domain.http.server.security.SubjectDoAsHandler.handleRequest(SubjectDoAsHandler.java:68)
+	at org.jboss.as.domain.http.server.security.SubjectDoAsHandler.handleRequest(SubjectDoAsHandler.java:63)
+	at io.undertow.server.handlers.BlockingHandler.handleRequest(BlockingHandler.java:56)
+	at org.jboss.as.domain.http.server.DomainApiCheckHandler.handleRequest(DomainApiCheckHandler.java:95)
+	at io.undertow.security.handlers.AuthenticationCallHandler.handleRequest(AuthenticationCallHandler.java:52)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:199)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:774)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.sql.SQLException: Access denied for user 'admin'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:959)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3870)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3806)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1686)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1207)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2254)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2285)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2084)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:795)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:400)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:327)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:312)
+	... 32 more
+
+2015-11-09 22:22:20,601 ERROR [org.jboss.as.controller.management-operation] (XNIO-1 task-1) WFLYCTL0013: Operation ("test-connection-in-pool") failed - address: ([
+    ("subsystem" => "datasources"),
+    ("data-source" => "MySql")
+]) - failure description: "WFLYJCA0040: failed to invoke operation: WFLYJCA0047: Connection is not valid"
+2015-11-09 22:22:20,633 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:/MySql]
+2015-11-09 22:24:12,460 INFO  [org.jboss.as.controller.management-deprecated] (XNIO-1 task-2) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=MySql' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-11-09 22:24:12,476 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:/MySql]
+2015-11-09 22:24:12,535 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (XNIO-1 task-9) IJ000604: Throwable while attempting to get a new connection: null: javax.resource.ResourceException: IJ031084: Unable to create connection
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:336)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.getLocalManagedConnection(LocalManagedConnectionFactory.java:343)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createManagedConnection(LocalManagedConnectionFactory.java:278)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreArrayListManagedConnectionPool.createConnectionEventListener(SemaphoreArrayListManagedConnectionPool.java:1289)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreArrayListManagedConnectionPool.getConnection(SemaphoreArrayListManagedConnectionPool.java:492)
+	at org.jboss.jca.core.connectionmanager.pool.AbstractPool.internalTestConnection(AbstractPool.java:1071)
+	at org.jboss.jca.core.connectionmanager.pool.strategy.OnePool.testConnection(OnePool.java:91)
+	at org.jboss.as.connector.subsystems.common.pool.PoolOperations$TestConnectionInPool.invokeCommandOn(PoolOperations.java:232)
+	at org.jboss.as.connector.subsystems.common.pool.PoolOperations$1.execute(PoolOperations.java:88)
+	at org.jboss.as.controller.AbstractOperationContext.executeStep(AbstractOperationContext.java:803)
+	at org.jboss.as.controller.AbstractOperationContext.doCompleteStep(AbstractOperationContext.java:601)
+	at org.jboss.as.controller.AbstractOperationContext.completeStepInternal(AbstractOperationContext.java:354)
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:330)
+	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1183)
+	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:362)
+	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:218)
+	at org.jboss.as.domain.http.server.DomainApiHandler.handleRequest(DomainApiHandler.java:208)
+	at io.undertow.server.handlers.encoding.EncodingHandler.handleRequest(EncodingHandler.java:72)
+	at org.jboss.as.domain.http.server.security.SubjectDoAsHandler$1.run(SubjectDoAsHandler.java:72)
+	at org.jboss.as.domain.http.server.security.SubjectDoAsHandler$1.run(SubjectDoAsHandler.java:68)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:92)
+	at org.jboss.as.domain.http.server.security.SubjectDoAsHandler.handleRequest(SubjectDoAsHandler.java:68)
+	at org.jboss.as.domain.http.server.security.SubjectDoAsHandler.handleRequest(SubjectDoAsHandler.java:63)
+	at io.undertow.server.handlers.BlockingHandler.handleRequest(BlockingHandler.java:56)
+	at org.jboss.as.domain.http.server.DomainApiCheckHandler.handleRequest(DomainApiCheckHandler.java:95)
+	at io.undertow.security.handlers.AuthenticationCallHandler.handleRequest(AuthenticationCallHandler.java:52)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:199)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:774)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.sql.SQLException: Access denied for user 'admin'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:959)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3870)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3806)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1686)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1207)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2254)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2285)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2084)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:795)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:400)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:327)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:312)
+	... 32 more
+
+2015-11-09 22:24:12,537 ERROR [org.jboss.as.controller.management-operation] (XNIO-1 task-9) WFLYCTL0013: Operation ("test-connection-in-pool") failed - address: ([
+    ("subsystem" => "datasources"),
+    ("data-source" => "MySql")
+]) - failure description: "WFLYJCA0040: failed to invoke operation: WFLYJCA0047: Connection is not valid"
+2015-11-09 22:24:12,565 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:/MySql]
+2015-11-09 22:24:51,414 INFO  [org.jboss.as.controller.management-deprecated] (XNIO-1 task-1) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=MySql' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-11-09 22:24:51,430 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:/MySql]
+2015-11-09 22:24:51,473 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (XNIO-1 task-3) IJ000604: Throwable while attempting to get a new connection: null: javax.resource.ResourceException: IJ031084: Unable to create connection
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:336)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.getLocalManagedConnection(LocalManagedConnectionFactory.java:343)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createManagedConnection(LocalManagedConnectionFactory.java:278)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreArrayListManagedConnectionPool.createConnectionEventListener(SemaphoreArrayListManagedConnectionPool.java:1289)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreArrayListManagedConnectionPool.getConnection(SemaphoreArrayListManagedConnectionPool.java:492)
+	at org.jboss.jca.core.connectionmanager.pool.AbstractPool.internalTestConnection(AbstractPool.java:1071)
+	at org.jboss.jca.core.connectionmanager.pool.strategy.OnePool.testConnection(OnePool.java:91)
+	at org.jboss.as.connector.subsystems.common.pool.PoolOperations$TestConnectionInPool.invokeCommandOn(PoolOperations.java:232)
+	at org.jboss.as.connector.subsystems.common.pool.PoolOperations$1.execute(PoolOperations.java:88)
+	at org.jboss.as.controller.AbstractOperationContext.executeStep(AbstractOperationContext.java:803)
+	at org.jboss.as.controller.AbstractOperationContext.doCompleteStep(AbstractOperationContext.java:601)
+	at org.jboss.as.controller.AbstractOperationContext.completeStepInternal(AbstractOperationContext.java:354)
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:330)
+	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1183)
+	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:362)
+	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:218)
+	at org.jboss.as.domain.http.server.DomainApiHandler.handleRequest(DomainApiHandler.java:208)
+	at io.undertow.server.handlers.encoding.EncodingHandler.handleRequest(EncodingHandler.java:72)
+	at org.jboss.as.domain.http.server.security.SubjectDoAsHandler$1.run(SubjectDoAsHandler.java:72)
+	at org.jboss.as.domain.http.server.security.SubjectDoAsHandler$1.run(SubjectDoAsHandler.java:68)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:92)
+	at org.jboss.as.domain.http.server.security.SubjectDoAsHandler.handleRequest(SubjectDoAsHandler.java:68)
+	at org.jboss.as.domain.http.server.security.SubjectDoAsHandler.handleRequest(SubjectDoAsHandler.java:63)
+	at io.undertow.server.handlers.BlockingHandler.handleRequest(BlockingHandler.java:56)
+	at org.jboss.as.domain.http.server.DomainApiCheckHandler.handleRequest(DomainApiCheckHandler.java:95)
+	at io.undertow.security.handlers.AuthenticationCallHandler.handleRequest(AuthenticationCallHandler.java:52)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:199)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:774)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.sql.SQLException: Access denied for user 'admin'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:959)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3870)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3806)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1686)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1207)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2254)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2285)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2084)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:795)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:400)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:327)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:312)
+	... 32 more
+
+2015-11-09 22:24:51,478 ERROR [org.jboss.as.controller.management-operation] (XNIO-1 task-3) WFLYCTL0013: Operation ("test-connection-in-pool") failed - address: ([
+    ("subsystem" => "datasources"),
+    ("data-source" => "MySql")
+]) - failure description: "WFLYJCA0040: failed to invoke operation: WFLYJCA0047: Connection is not valid"
+2015-11-09 22:24:51,511 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:/MySql]
+2015-11-09 22:25:07,886 INFO  [org.jboss.as.controller.management-deprecated] (XNIO-1 task-9) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=MySql' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-11-09 22:25:07,892 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:/MySql]
+2015-11-09 22:25:07,943 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (XNIO-1 task-6) IJ000604: Throwable while attempting to get a new connection: null: javax.resource.ResourceException: IJ031084: Unable to create connection
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:336)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.getLocalManagedConnection(LocalManagedConnectionFactory.java:343)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createManagedConnection(LocalManagedConnectionFactory.java:278)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreArrayListManagedConnectionPool.createConnectionEventListener(SemaphoreArrayListManagedConnectionPool.java:1289)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreArrayListManagedConnectionPool.getConnection(SemaphoreArrayListManagedConnectionPool.java:492)
+	at org.jboss.jca.core.connectionmanager.pool.AbstractPool.internalTestConnection(AbstractPool.java:1071)
+	at org.jboss.jca.core.connectionmanager.pool.strategy.OnePool.testConnection(OnePool.java:91)
+	at org.jboss.as.connector.subsystems.common.pool.PoolOperations$TestConnectionInPool.invokeCommandOn(PoolOperations.java:232)
+	at org.jboss.as.connector.subsystems.common.pool.PoolOperations$1.execute(PoolOperations.java:88)
+	at org.jboss.as.controller.AbstractOperationContext.executeStep(AbstractOperationContext.java:803)
+	at org.jboss.as.controller.AbstractOperationContext.doCompleteStep(AbstractOperationContext.java:601)
+	at org.jboss.as.controller.AbstractOperationContext.completeStepInternal(AbstractOperationContext.java:354)
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:330)
+	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1183)
+	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:362)
+	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:218)
+	at org.jboss.as.domain.http.server.DomainApiHandler.handleRequest(DomainApiHandler.java:208)
+	at io.undertow.server.handlers.encoding.EncodingHandler.handleRequest(EncodingHandler.java:72)
+	at org.jboss.as.domain.http.server.security.SubjectDoAsHandler$1.run(SubjectDoAsHandler.java:72)
+	at org.jboss.as.domain.http.server.security.SubjectDoAsHandler$1.run(SubjectDoAsHandler.java:68)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:92)
+	at org.jboss.as.domain.http.server.security.SubjectDoAsHandler.handleRequest(SubjectDoAsHandler.java:68)
+	at org.jboss.as.domain.http.server.security.SubjectDoAsHandler.handleRequest(SubjectDoAsHandler.java:63)
+	at io.undertow.server.handlers.BlockingHandler.handleRequest(BlockingHandler.java:56)
+	at org.jboss.as.domain.http.server.DomainApiCheckHandler.handleRequest(DomainApiCheckHandler.java:95)
+	at io.undertow.security.handlers.AuthenticationCallHandler.handleRequest(AuthenticationCallHandler.java:52)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:199)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:774)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.sql.SQLException: Access denied for user 'admin'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:959)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3870)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3806)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1686)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1207)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2254)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2285)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2084)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:795)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:400)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:327)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:312)
+	... 32 more
+
+2015-11-09 22:25:07,945 ERROR [org.jboss.as.controller.management-operation] (XNIO-1 task-6) WFLYCTL0013: Operation ("test-connection-in-pool") failed - address: ([
+    ("subsystem" => "datasources"),
+    ("data-source" => "MySql")
+]) - failure description: "WFLYJCA0040: failed to invoke operation: WFLYJCA0047: Connection is not valid"
+2015-11-09 22:25:07,960 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:/MySql]
+2015-11-09 22:29:39,299 INFO  [org.jboss.as.controller.management-deprecated] (XNIO-1 task-3) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=Project2' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-11-09 22:29:39,315 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:/Project2]
+2015-11-09 22:29:39,354 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (XNIO-1 task-2) IJ000604: Throwable while attempting to get a new connection: null: javax.resource.ResourceException: IJ031084: Unable to create connection
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:336)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.getLocalManagedConnection(LocalManagedConnectionFactory.java:343)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createManagedConnection(LocalManagedConnectionFactory.java:278)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreArrayListManagedConnectionPool.createConnectionEventListener(SemaphoreArrayListManagedConnectionPool.java:1289)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreArrayListManagedConnectionPool.getConnection(SemaphoreArrayListManagedConnectionPool.java:492)
+	at org.jboss.jca.core.connectionmanager.pool.AbstractPool.internalTestConnection(AbstractPool.java:1071)
+	at org.jboss.jca.core.connectionmanager.pool.strategy.OnePool.testConnection(OnePool.java:91)
+	at org.jboss.as.connector.subsystems.common.pool.PoolOperations$TestConnectionInPool.invokeCommandOn(PoolOperations.java:232)
+	at org.jboss.as.connector.subsystems.common.pool.PoolOperations$1.execute(PoolOperations.java:88)
+	at org.jboss.as.controller.AbstractOperationContext.executeStep(AbstractOperationContext.java:803)
+	at org.jboss.as.controller.AbstractOperationContext.doCompleteStep(AbstractOperationContext.java:601)
+	at org.jboss.as.controller.AbstractOperationContext.completeStepInternal(AbstractOperationContext.java:354)
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:330)
+	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1183)
+	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:362)
+	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:218)
+	at org.jboss.as.domain.http.server.DomainApiHandler.handleRequest(DomainApiHandler.java:208)
+	at io.undertow.server.handlers.encoding.EncodingHandler.handleRequest(EncodingHandler.java:72)
+	at org.jboss.as.domain.http.server.security.SubjectDoAsHandler$1.run(SubjectDoAsHandler.java:72)
+	at org.jboss.as.domain.http.server.security.SubjectDoAsHandler$1.run(SubjectDoAsHandler.java:68)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:92)
+	at org.jboss.as.domain.http.server.security.SubjectDoAsHandler.handleRequest(SubjectDoAsHandler.java:68)
+	at org.jboss.as.domain.http.server.security.SubjectDoAsHandler.handleRequest(SubjectDoAsHandler.java:63)
+	at io.undertow.server.handlers.BlockingHandler.handleRequest(BlockingHandler.java:56)
+	at org.jboss.as.domain.http.server.DomainApiCheckHandler.handleRequest(DomainApiCheckHandler.java:95)
+	at io.undertow.security.handlers.AuthenticationCallHandler.handleRequest(AuthenticationCallHandler.java:52)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:199)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:774)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.resource.ResourceException: IJ031083: Wrong driver class [org.h2.Driver] for this connection URL [jdbc:mysql://localhost:3306/mysqldb]
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:314)
+	... 32 more
+
+2015-11-09 22:29:39,357 ERROR [org.jboss.as.controller.management-operation] (XNIO-1 task-2) WFLYCTL0013: Operation ("test-connection-in-pool") failed - address: ([
+    ("subsystem" => "datasources"),
+    ("data-source" => "Project2")
+]) - failure description: "WFLYJCA0040: failed to invoke operation: WFLYJCA0047: Connection is not valid"
+2015-11-09 22:29:39,378 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:/Project2]
+2015-11-09 22:32:55,923 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0211: Suspending server
+2015-11-09 22:32:55,932 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested.
+2015-11-09 22:32:55,945 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = mysql-connector-java-5.1.37-bin.jar_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2015-11-09 22:32:55,954 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2015-11-09 22:32:55,954 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = mysql-connector-java-5.1.37-bin.jar_com.mysql.jdbc.Driver_5_1
+2015-11-09 22:32:55,962 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0019: Host default-host stopping
+2015-11-09 22:32:55,966 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2015-11-09 22:32:56,072 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-3) HV000001: Hibernate Validator 5.1.3.Final
+2015-11-09 22:32:56,239 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0008: Undertow HTTP listener default suspending
+2015-11-09 22:32:56,241 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0007: Undertow HTTP listener default stopped, was bound to /127.0.0.1:8080
+2015-11-09 22:32:56,242 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment mysql-connector-java-5.1.37-bin.jar (runtime-name: mysql-connector-java-5.1.37-bin.jar) in 301ms
+2015-11-09 22:32:56,244 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0004: Undertow 1.2.9.Final stopping
+2015-11-09 22:32:56,254 INFO  [org.jboss.as] (MSC service thread 1-5) WFLYSRV0050: WildFly Full 9.0.2.Final (WildFly Core 1.0.2.Final) stopped in 295ms
+2015-11-09 22:57:41,801 INFO  [org.jboss.modules] (main) JBoss Modules version 1.4.3.Final
+2015-11-09 22:57:42,735 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2015-11-09 22:57:42,918 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: WildFly Full 9.0.2.Final (WildFly Core 1.0.2.Final) starting
+2015-11-09 22:57:42,920 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.lwawt.macosx.LWCToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	gopherProxySet = false
+	http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+	java.class.path = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/endorsed
+	java.ext.dirs = /Users/tomasfrancisco/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+	java.home = /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre
+	java.io.tmpdir = /var/folders/xq/_n0kh6cn1675tf16zknfhzsr0000gn/T/
+	java.library.path = /Users/tomasfrancisco/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_60-b27
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_60
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.60-b23
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final
+	jboss.host.name = mbp-t-train
+	jboss.modules.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = mbp-t-train
+	jboss.qualified.host.name = mbp-t-train.lan
+	jboss.server.base.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone
+	jboss.server.config.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/configuration
+	jboss.server.data.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/data
+	jboss.server.deploy.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/data/content
+	jboss.server.log.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/log
+	jboss.server.name = mbp-t-train
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/configuration/logging.properties
+	module.path = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/modules
+	org.jboss.boot.log.file = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = x86_64
+	os.name = Mac OS X
+	os.version = 10.11.1
+	path.separator = :
+	socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	sun.arch.data.model = 64
+	sun.boot.class.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/classes
+	sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeBig
+	sun.java.command = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/jboss-modules.jar -mp /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/modules org.jboss.as.standalone -Djboss.home.dir=/Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final -Djboss.server.base.dir=/Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.country.format = PT
+	user.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/bin
+	user.home = /Users/tomasfrancisco
+	user.language = en
+	user.name = tomasfrancisco
+	user.timezone = Europe/Lisbon
+2015-11-09 22:57:42,922 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -D[Standalone] -XX:+UseCompressedOops -XX:+UseCompressedOops -Xms64m -Xmx512m -XX:MaxPermSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/log/server.log -Dlogging.configuration=file:/Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/configuration/logging.properties 
+2015-11-09 22:57:44,946 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 16) WFLYCTL0028: Attribute 'job-repository-type' in the resource at address '/subsystem=batch' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-11-09 22:57:44,947 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 13) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=ExampleDS' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-11-09 22:57:45,005 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2015-11-09 22:57:45,044 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.3.1.Final
+2015-11-09 22:57:45,062 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.3.1.Final
+2015-11-09 22:57:45,133 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 4.0.9.Final
+2015-11-09 22:57:45,183 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2015-11-09 22:57:45,187 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2015-11-09 22:57:45,195 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2015-11-09 22:57:45,217 INFO  [org.jboss.as.connector] (MSC service thread 1-5) WFLYJCA0009: Starting JCA Subsystem (IronJacamar 1.2.5.Final)
+2015-11-09 22:57:45,224 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = h2
+2015-11-09 22:57:45,259 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2015-11-09 22:57:45,277 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2015-11-09 22:57:45,340 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2015-11-09 22:57:45,347 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2015-11-09 22:57:45,348 INFO  [org.jboss.as.naming] (MSC service thread 1-4) WFLYNAM0003: Starting Naming Service
+2015-11-09 22:57:45,348 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2015-11-09 22:57:45,357 INFO  [org.jboss.as.security] (MSC service thread 1-3) WFLYSEC0001: Current PicketBox version=4.9.2.Final
+2015-11-09 22:57:45,360 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2015-11-09 22:57:45,364 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0003: Undertow 1.2.9.Final starting
+2015-11-09 22:57:45,364 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0003: Undertow 1.2.9.Final starting
+2015-11-09 22:57:45,663 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/welcome-content
+2015-11-09 22:57:45,729 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0012: Started server default-server.
+2015-11-09 22:57:45,777 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0018: Host default-host starting
+2015-11-09 22:57:45,965 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTP listener default listening on /127.0.0.1:8080
+2015-11-09 22:57:46,253 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2015-11-09 22:57:46,513 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) WFLYDS0013: Started FileSystemDeploymentService for directory /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/deployments
+2015-11-09 22:57:46,539 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "mysql-connector-java-5.1.37-bin.jar" (runtime-name: "mysql-connector-java-5.1.37-bin.jar")
+2015-11-09 22:57:46,803 INFO  [org.jboss.ws.common.management] (MSC service thread 1-7) JBWS022052: Starting JBoss Web Services - Stack CXF Server 5.0.0.Final
+2015-11-09 22:57:46,974 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2015-11-09 22:57:46,977 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.fabric.jdbc.FabricMySQLDriver (version 5.1)
+2015-11-09 22:57:46,995 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = mysql-connector-java-5.1.37-bin.jar_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2015-11-09 22:57:46,996 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = mysql-connector-java-5.1.37-bin.jar_com.mysql.jdbc.Driver_5_1
+2015-11-09 22:57:47,389 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "mysql-connector-java-5.1.37-bin.jar" (runtime-name : "mysql-connector-java-5.1.37-bin.jar")
+2015-11-09 22:57:47,779 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2015-11-09 22:57:47,780 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2015-11-09 22:57:47,780 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 9.0.2.Final (WildFly Core 1.0.2.Final) started in 6800ms - Started 241 of 423 services (218 services are lazy, passive or on-demand)
+2015-11-09 22:58:26,699 INFO  [org.jboss.as.controller.management-deprecated] (XNIO-1 task-1) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=MySql' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-11-09 22:58:26,716 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:/MySql]
+2015-11-09 22:58:27,215 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:/MySql]
+2015-11-09 22:58:29,042 INFO  [org.jboss.as.controller.management-deprecated] (XNIO-1 task-6) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=MySql' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-11-09 22:58:29,047 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:/MySql]
+2015-11-09 23:47:28,632 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0211: Suspending server
+2015-11-09 23:47:28,647 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested.
+2015-11-09 23:47:28,685 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0019: Stopped Driver service with driver-name = mysql-connector-java-5.1.37-bin.jar_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2015-11-09 23:47:28,696 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2015-11-09 23:47:28,696 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:/MySql]
+2015-11-09 23:47:28,718 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0019: Host default-host stopping
+2015-11-09 23:47:28,720 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2015-11-09 23:47:28,728 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = mysql-connector-java-5.1.37-bin.jar_com.mysql.jdbc.Driver_5_1
+2015-11-09 23:47:28,787 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-2) HV000001: Hibernate Validator 5.1.3.Final
+2015-11-09 23:47:29,149 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0008: Undertow HTTP listener default suspending
+2015-11-09 23:47:29,151 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment mysql-connector-java-5.1.37-bin.jar (runtime-name: mysql-connector-java-5.1.37-bin.jar) in 468ms
+2015-11-09 23:47:29,154 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0007: Undertow HTTP listener default stopped, was bound to /127.0.0.1:8080
+2015-11-09 23:47:29,155 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0004: Undertow 1.2.9.Final stopping
+2015-11-09 23:47:29,161 INFO  [org.jboss.as] (MSC service thread 1-4) WFLYSRV0050: WildFly Full 9.0.2.Final (WildFly Core 1.0.2.Final) stopped in 477ms
+2015-11-09 23:47:50,244 INFO  [org.jboss.modules] (main) JBoss Modules version 1.4.3.Final
+2015-11-09 23:47:50,858 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2015-11-09 23:47:51,028 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Full 9.0.2.Final (WildFly Core 1.0.2.Final) starting
+2015-11-09 23:47:51,033 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.lwawt.macosx.LWCToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	gopherProxySet = false
+	http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+	java.class.path = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/endorsed
+	java.ext.dirs = /Users/tomasfrancisco/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+	java.home = /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre
+	java.io.tmpdir = /var/folders/xq/_n0kh6cn1675tf16zknfhzsr0000gn/T/
+	java.library.path = /Users/tomasfrancisco/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_60-b27
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_60
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.60-b23
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final
+	jboss.host.name = mbp-t-train
+	jboss.modules.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = mbp-t-train
+	jboss.qualified.host.name = mbp-t-train.lan
+	jboss.server.base.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone
+	jboss.server.config.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/configuration
+	jboss.server.data.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/data
+	jboss.server.deploy.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/data/content
+	jboss.server.log.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/log
+	jboss.server.name = mbp-t-train
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/configuration/logging.properties
+	module.path = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/modules
+	org.jboss.boot.log.file = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = x86_64
+	os.name = Mac OS X
+	os.version = 10.11.1
+	path.separator = :
+	socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	sun.arch.data.model = 64
+	sun.boot.class.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/classes
+	sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeBig
+	sun.java.command = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/jboss-modules.jar -mp /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/modules org.jboss.as.standalone -Djboss.home.dir=/Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final -Djboss.server.base.dir=/Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.country.format = PT
+	user.dir = /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/bin
+	user.home = /Users/tomasfrancisco
+	user.language = en
+	user.name = tomasfrancisco
+	user.timezone = Europe/Lisbon
+2015-11-09 23:47:51,036 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -D[Standalone] -XX:+UseCompressedOops -XX:+UseCompressedOops -Xms64m -Xmx512m -XX:MaxPermSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/log/server.log -Dlogging.configuration=file:/Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/configuration/logging.properties 
+2015-11-09 23:47:52,360 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 16) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=ExampleDS' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-11-09 23:47:52,362 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) WFLYCTL0028: Attribute 'job-repository-type' in the resource at address '/subsystem=batch' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-11-09 23:47:52,371 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 16) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=MySql' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-11-09 23:47:52,427 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2015-11-09 23:47:52,460 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.3.1.Final
+2015-11-09 23:47:52,474 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.3.1.Final
+2015-11-09 23:47:52,537 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2015-11-09 23:47:52,548 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2015-11-09 23:47:52,550 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2015-11-09 23:47:52,657 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 4.0.9.Final
+2015-11-09 23:47:52,691 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2015-11-09 23:47:52,691 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2015-11-09 23:47:52,701 INFO  [org.jboss.as.security] (MSC service thread 1-6) WFLYSEC0001: Current PicketBox version=4.9.2.Final
+2015-11-09 23:47:52,711 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2015-11-09 23:47:52,742 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2015-11-09 23:47:52,747 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2015-11-09 23:47:52,756 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0003: Undertow 1.2.9.Final starting
+2015-11-09 23:47:52,756 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0003: Undertow 1.2.9.Final starting
+2015-11-09 23:47:52,770 INFO  [org.jboss.as.connector] (MSC service thread 1-4) WFLYJCA0009: Starting JCA Subsystem (IronJacamar 1.2.5.Final)
+2015-11-09 23:47:52,893 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = h2
+2015-11-09 23:47:52,924 INFO  [org.jboss.as.naming] (MSC service thread 1-1) WFLYNAM0003: Starting Naming Service
+2015-11-09 23:47:52,926 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2015-11-09 23:47:53,068 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/welcome-content
+2015-11-09 23:47:53,076 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0012: Started server default-server.
+2015-11-09 23:47:53,152 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0018: Host default-host starting
+2015-11-09 23:47:53,171 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTP listener default listening on /127.0.0.1:8080
+2015-11-09 23:47:53,344 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2015-11-09 23:47:53,682 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-5) WFLYDS0013: Started FileSystemDeploymentService for directory /Users/tomasfrancisco/Downloads/wildfly-9.0.2.Final/standalone/deployments
+2015-11-09 23:47:53,686 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "mysql-connector-java-5.1.37-bin.jar" (runtime-name: "mysql-connector-java-5.1.37-bin.jar")
+2015-11-09 23:47:53,824 INFO  [org.jboss.ws.common.management] (MSC service thread 1-4) JBWS022052: Starting JBoss Web Services - Stack CXF Server 5.0.0.Final
+2015-11-09 23:47:53,978 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2015-11-09 23:47:53,979 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.fabric.jdbc.FabricMySQLDriver (version 5.1)
+2015-11-09 23:47:53,998 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = mysql-connector-java-5.1.37-bin.jar_com.mysql.jdbc.Driver_5_1
+2015-11-09 23:47:53,999 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = mysql-connector-java-5.1.37-bin.jar_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2015-11-09 23:47:54,005 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:/MySql]
+2015-11-09 23:47:54,238 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "mysql-connector-java-5.1.37-bin.jar" (runtime-name : "mysql-connector-java-5.1.37-bin.jar")
+2015-11-09 23:47:54,424 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2015-11-09 23:47:54,424 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2015-11-09 23:47:54,425 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 9.0.2.Final (WildFly Core 1.0.2.Final) started in 5156ms - Started 246 of 428 services (218 services are lazy, passive or on-demand)
+2015-11-09 23:47:55,125 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "project2_war_exploded.war" (runtime-name: "project2_war_exploded.war")
+2015-11-09 23:47:56,060 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) WFLYJPA0002: Read persistence.xml for NewPersistenceUnit
+2015-11-09 23:47:56,304 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 29) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'project2_war_exploded.war#NewPersistenceUnit'
+2015-11-09 23:47:56,320 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 29) HHH000204: Processing PersistenceUnitInfo [
+	name: NewPersistenceUnit
+	...]
+2015-11-09 23:47:56,429 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 29) HHH000412: Hibernate Core {4.3.10.Final}
+2015-11-09 23:47:56,432 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 29) HHH000206: hibernate.properties not found
+2015-11-09 23:47:56,434 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 29) HHH000021: Bytecode provider name : javassist
+2015-11-09 23:47:56,600 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment project2_war_exploded.war
+2015-11-09 23:47:56,693 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-7) HV000001: Hibernate Validator 5.1.3.Final
+2015-11-09 23:47:57,054 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-7) JNDI bindings for session bean named PlayersEJB in deployment unit deployment "project2_war_exploded.war" are as follows:
+
+	java:global/project2_war_exploded/PlayersEJB!ejb.PlayersEJBRemote
+	java:app/project2_war_exploded/PlayersEJB!ejb.PlayersEJBRemote
+	java:module/PlayersEJB!ejb.PlayersEJBRemote
+	java:jboss/exported/project2_war_exploded/PlayersEJB!ejb.PlayersEJBRemote
+	java:global/project2_war_exploded/PlayersEJB
+	java:app/project2_war_exploded/PlayersEJB
+	java:module/PlayersEJB
+
+2015-11-09 23:47:57,277 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2015-11-09 23:47:57,281 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.fabric.jdbc.FabricMySQLDriver (version 5.1)
+2015-11-09 23:47:57,282 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0006: Starting Services for CDI deployment: project2_war_exploded.war
+2015-11-09 23:47:57,354 INFO  [org.jboss.weld.Version] (MSC service thread 1-3) WELD-000900: 2.2.16 (SP1)
+2015-11-09 23:47:57,392 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = project2_war_exploded.war_com.mysql.jdbc.Driver_5_1
+2015-11-09 23:47:57,394 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = project2_war_exploded.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2015-11-09 23:47:57,395 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0009: Starting weld service for deployment project2_war_exploded.war
+2015-11-09 23:47:57,657 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 29) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'project2_war_exploded.war#NewPersistenceUnit'
+2015-11-09 23:47:57,768 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 29) HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-11-09 23:47:58,052 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 29) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-11-09 23:47:58,205 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 29) HHH000397: Using ASTQueryTranslatorFactory
+2015-11-09 23:47:58,626 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 29) HHH000228: Running hbm2ddl schema update
+2015-11-09 23:47:58,626 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 29) HHH000102: Fetching database metadata
+2015-11-09 23:47:58,631 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 29) HHH000396: Updating schema
+2015-11-09 23:47:58,636 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 29) HHH000262: Table not found: Player
+2015-11-09 23:47:58,637 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 29) HHH000262: Table not found: Team
+2015-11-09 23:47:58,638 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 29) HHH000262: Table not found: Player
+2015-11-09 23:47:58,639 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 29) HHH000262: Table not found: Team
+2015-11-09 23:47:58,641 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 29) HHH000262: Table not found: Player
+2015-11-09 23:47:58,642 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 29) HHH000262: Table not found: Team
+2015-11-09 23:47:58,658 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 29) HHH000232: Schema update complete
+2015-11-09 23:47:59,525 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 29) WFLYUT0021: Registered web context: /project2_war_exploded
+2015-11-09 23:47:59,540 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0010: Deployed "project2_war_exploded.war" (runtime-name : "project2_war_exploded.war")
+2015-11-09 23:48:38,790 INFO  [org.jboss.ejb.client] (default task-4) JBoss EJB Client version 2.1.1.Final
+2015-11-09 23:48:38,908 INFO  [stdout] (default task-4) Hibernate: 
+2015-11-09 23:48:38,909 INFO  [stdout] (default task-4)     insert 
+2015-11-09 23:48:38,909 INFO  [stdout] (default task-4)     into
+2015-11-09 23:48:38,909 INFO  [stdout] (default task-4)         Team
+2015-11-09 23:48:38,909 INFO  [stdout] (default task-4)         (address, name, presidentname) 
+2015-11-09 23:48:38,909 INFO  [stdout] (default task-4)     values
+2015-11-09 23:48:38,909 INFO  [stdout] (default task-4)         (?, ?, ?)
+2015-11-09 23:48:38,943 INFO  [stdout] (default task-4) Hibernate: 
+2015-11-09 23:48:38,943 INFO  [stdout] (default task-4)     insert 
+2015-11-09 23:48:38,943 INFO  [stdout] (default task-4)     into
+2015-11-09 23:48:38,943 INFO  [stdout] (default task-4)         Team
+2015-11-09 23:48:38,944 INFO  [stdout] (default task-4)         (address, name, presidentname) 
+2015-11-09 23:48:38,944 INFO  [stdout] (default task-4)     values
+2015-11-09 23:48:38,944 INFO  [stdout] (default task-4)         (?, ?, ?)
+2015-11-09 23:48:38,945 INFO  [stdout] (default task-4) Hibernate: 
+2015-11-09 23:48:38,945 INFO  [stdout] (default task-4)     insert 
+2015-11-09 23:48:38,945 INFO  [stdout] (default task-4)     into
+2015-11-09 23:48:38,945 INFO  [stdout] (default task-4)         Team
+2015-11-09 23:48:38,945 INFO  [stdout] (default task-4)         (address, name, presidentname) 
+2015-11-09 23:48:38,946 INFO  [stdout] (default task-4)     values
+2015-11-09 23:48:38,946 INFO  [stdout] (default task-4)         (?, ?, ?)
+2015-11-09 23:48:38,947 INFO  [stdout] (default task-4) Hibernate: 
+2015-11-09 23:48:38,947 INFO  [stdout] (default task-4)     insert 
+2015-11-09 23:48:38,947 INFO  [stdout] (default task-4)     into
+2015-11-09 23:48:38,947 INFO  [stdout] (default task-4)         Team
+2015-11-09 23:48:38,947 INFO  [stdout] (default task-4)         (address, name, presidentname) 
+2015-11-09 23:48:38,947 INFO  [stdout] (default task-4)     values
+2015-11-09 23:48:38,947 INFO  [stdout] (default task-4)         (?, ?, ?)
+2015-11-09 23:48:38,952 INFO  [stdout] (default task-4) Hibernate: 
+2015-11-09 23:48:38,952 INFO  [stdout] (default task-4)     insert 
+2015-11-09 23:48:38,952 INFO  [stdout] (default task-4)     into
+2015-11-09 23:48:38,952 INFO  [stdout] (default task-4)         Player
+2015-11-09 23:48:38,952 INFO  [stdout] (default task-4)         (birth, height, name, team_id) 
+2015-11-09 23:48:38,952 INFO  [stdout] (default task-4)     values
+2015-11-09 23:48:38,952 INFO  [stdout] (default task-4)         (?, ?, ?, ?)
+2015-11-09 23:48:38,957 INFO  [stdout] (default task-4) Hibernate: 
+2015-11-09 23:48:38,958 INFO  [stdout] (default task-4)     insert 
+2015-11-09 23:48:38,958 INFO  [stdout] (default task-4)     into
+2015-11-09 23:48:38,958 INFO  [stdout] (default task-4)         Player
+2015-11-09 23:48:38,958 INFO  [stdout] (default task-4)         (birth, height, name, team_id) 
+2015-11-09 23:48:38,958 INFO  [stdout] (default task-4)     values
+2015-11-09 23:48:38,958 INFO  [stdout] (default task-4)         (?, ?, ?, ?)
+2015-11-09 23:48:38,959 INFO  [stdout] (default task-4) Hibernate: 
+2015-11-09 23:48:38,960 INFO  [stdout] (default task-4)     insert 
+2015-11-09 23:48:38,960 INFO  [stdout] (default task-4)     into
+2015-11-09 23:48:38,960 INFO  [stdout] (default task-4)         Player
+2015-11-09 23:48:38,960 INFO  [stdout] (default task-4)         (birth, height, name, team_id) 
+2015-11-09 23:48:38,960 INFO  [stdout] (default task-4)     values
+2015-11-09 23:48:38,960 INFO  [stdout] (default task-4)         (?, ?, ?, ?)
+2015-11-09 23:48:38,961 INFO  [stdout] (default task-4) Hibernate: 
+2015-11-09 23:48:38,961 INFO  [stdout] (default task-4)     insert 
+2015-11-09 23:48:38,962 INFO  [stdout] (default task-4)     into
+2015-11-09 23:48:38,962 INFO  [stdout] (default task-4)         Player
+2015-11-09 23:48:38,962 INFO  [stdout] (default task-4)         (birth, height, name, team_id) 
+2015-11-09 23:48:38,962 INFO  [stdout] (default task-4)     values
+2015-11-09 23:48:38,962 INFO  [stdout] (default task-4)         (?, ?, ?, ?)
+2015-11-09 23:48:38,963 INFO  [stdout] (default task-4) Hibernate: 
+2015-11-09 23:48:38,963 INFO  [stdout] (default task-4)     insert 
+2015-11-09 23:48:38,963 INFO  [stdout] (default task-4)     into
+2015-11-09 23:48:38,963 INFO  [stdout] (default task-4)         Player
+2015-11-09 23:48:38,963 INFO  [stdout] (default task-4)         (birth, height, name, team_id) 
+2015-11-09 23:48:38,963 INFO  [stdout] (default task-4)     values
+2015-11-09 23:48:38,963 INFO  [stdout] (default task-4)         (?, ?, ?, ?)
+2015-11-09 23:48:38,964 INFO  [stdout] (default task-4) Hibernate: 
+2015-11-09 23:48:38,964 INFO  [stdout] (default task-4)     insert 
+2015-11-09 23:48:38,965 INFO  [stdout] (default task-4)     into
+2015-11-09 23:48:38,965 INFO  [stdout] (default task-4)         Player
+2015-11-09 23:48:38,965 INFO  [stdout] (default task-4)         (birth, height, name, team_id) 
+2015-11-09 23:48:38,965 INFO  [stdout] (default task-4)     values
+2015-11-09 23:48:38,965 INFO  [stdout] (default task-4)         (?, ?, ?, ?)
+2015-11-09 23:48:38,966 INFO  [stdout] (default task-4) Hibernate: 
+2015-11-09 23:48:38,966 INFO  [stdout] (default task-4)     insert 
+2015-11-09 23:48:38,966 INFO  [stdout] (default task-4)     into
+2015-11-09 23:48:38,966 INFO  [stdout] (default task-4)         Player
+2015-11-09 23:48:38,966 INFO  [stdout] (default task-4)         (birth, height, name, team_id) 
+2015-11-09 23:48:38,966 INFO  [stdout] (default task-4)     values
+2015-11-09 23:48:38,966 INFO  [stdout] (default task-4)         (?, ?, ?, ?)
+2015-11-09 23:48:38,968 INFO  [stdout] (default task-4) Hibernate: 
+2015-11-09 23:48:38,968 INFO  [stdout] (default task-4)     insert 
+2015-11-09 23:48:38,968 INFO  [stdout] (default task-4)     into
+2015-11-09 23:48:38,968 INFO  [stdout] (default task-4)         Player
+2015-11-09 23:48:38,968 INFO  [stdout] (default task-4)         (birth, height, name, team_id) 
+2015-11-09 23:48:38,968 INFO  [stdout] (default task-4)     values
+2015-11-09 23:48:38,968 INFO  [stdout] (default task-4)         (?, ?, ?, ?)
+2015-11-09 23:48:38,970 INFO  [stdout] (default task-4) Hibernate: 
+2015-11-09 23:48:38,970 INFO  [stdout] (default task-4)     insert 
+2015-11-09 23:48:38,970 INFO  [stdout] (default task-4)     into
+2015-11-09 23:48:38,970 INFO  [stdout] (default task-4)         Player
+2015-11-09 23:48:38,971 INFO  [stdout] (default task-4)         (birth, height, name, team_id) 
+2015-11-09 23:48:38,971 INFO  [stdout] (default task-4)     values
+2015-11-09 23:48:38,971 INFO  [stdout] (default task-4)         (?, ?, ?, ?)
+2015-11-09 23:48:38,972 INFO  [stdout] (default task-4) Hibernate: 
+2015-11-09 23:48:38,972 INFO  [stdout] (default task-4)     insert 
+2015-11-09 23:48:38,973 INFO  [stdout] (default task-4)     into
+2015-11-09 23:48:38,973 INFO  [stdout] (default task-4)         Player
+2015-11-09 23:48:38,973 INFO  [stdout] (default task-4)         (birth, height, name, team_id) 
+2015-11-09 23:48:38,973 INFO  [stdout] (default task-4)     values
+2015-11-09 23:48:38,973 INFO  [stdout] (default task-4)         (?, ?, ?, ?)
+2015-11-09 23:48:38,974 INFO  [stdout] (default task-4) Hibernate: 
+2015-11-09 23:48:38,974 INFO  [stdout] (default task-4)     insert 
+2015-11-09 23:48:38,974 INFO  [stdout] (default task-4)     into
+2015-11-09 23:48:38,974 INFO  [stdout] (default task-4)         Player
+2015-11-09 23:48:38,974 INFO  [stdout] (default task-4)         (birth, height, name, team_id) 
+2015-11-09 23:48:38,974 INFO  [stdout] (default task-4)     values
+2015-11-09 23:48:38,974 INFO  [stdout] (default task-4)         (?, ?, ?, ?)
+2015-11-09 23:48:38,975 INFO  [stdout] (default task-4) Hibernate: 
+2015-11-09 23:48:38,976 INFO  [stdout] (default task-4)     insert 
+2015-11-09 23:48:38,976 INFO  [stdout] (default task-4)     into
+2015-11-09 23:48:38,976 INFO  [stdout] (default task-4)         Player
+2015-11-09 23:48:38,976 INFO  [stdout] (default task-4)         (birth, height, name, team_id) 
+2015-11-09 23:48:38,976 INFO  [stdout] (default task-4)     values
+2015-11-09 23:48:38,976 INFO  [stdout] (default task-4)         (?, ?, ?, ?)
+2015-11-09 23:48:38,977 INFO  [stdout] (default task-4) Hibernate: 
+2015-11-09 23:48:38,978 INFO  [stdout] (default task-4)     insert 
+2015-11-09 23:48:38,978 INFO  [stdout] (default task-4)     into
+2015-11-09 23:48:38,978 INFO  [stdout] (default task-4)         Player
+2015-11-09 23:48:38,978 INFO  [stdout] (default task-4)         (birth, height, name, team_id) 
+2015-11-09 23:48:38,978 INFO  [stdout] (default task-4)     values
+2015-11-09 23:48:38,978 INFO  [stdout] (default task-4)         (?, ?, ?, ?)
+2015-11-09 23:48:38,980 INFO  [stdout] (default task-4) Hibernate: 
+2015-11-09 23:48:38,980 INFO  [stdout] (default task-4)     insert 
+2015-11-09 23:48:38,980 INFO  [stdout] (default task-4)     into
+2015-11-09 23:48:38,980 INFO  [stdout] (default task-4)         Player
+2015-11-09 23:48:38,980 INFO  [stdout] (default task-4)         (birth, height, name, team_id) 
+2015-11-09 23:48:38,980 INFO  [stdout] (default task-4)     values
+2015-11-09 23:48:38,980 INFO  [stdout] (default task-4)         (?, ?, ?, ?)
+2015-11-09 23:48:38,982 INFO  [stdout] (default task-4) Hibernate: 
+2015-11-09 23:48:38,982 INFO  [stdout] (default task-4)     insert 
+2015-11-09 23:48:38,982 INFO  [stdout] (default task-4)     into
+2015-11-09 23:48:38,982 INFO  [stdout] (default task-4)         Player
+2015-11-09 23:48:38,982 INFO  [stdout] (default task-4)         (birth, height, name, team_id) 
+2015-11-09 23:48:38,982 INFO  [stdout] (default task-4)     values
+2015-11-09 23:48:38,982 INFO  [stdout] (default task-4)         (?, ?, ?, ?)
+2015-11-09 23:48:38,983 INFO  [stdout] (default task-4) Hibernate: 
+2015-11-09 23:48:38,984 INFO  [stdout] (default task-4)     insert 
+2015-11-09 23:48:38,984 INFO  [stdout] (default task-4)     into
+2015-11-09 23:48:38,984 INFO  [stdout] (default task-4)         Player
+2015-11-09 23:48:38,984 INFO  [stdout] (default task-4)         (birth, height, name, team_id) 
+2015-11-09 23:48:38,984 INFO  [stdout] (default task-4)     values
+2015-11-09 23:48:38,984 INFO  [stdout] (default task-4)         (?, ?, ?, ?)
+2015-11-09 23:48:38,985 INFO  [stdout] (default task-4) Hibernate: 
+2015-11-09 23:48:38,985 INFO  [stdout] (default task-4)     insert 
+2015-11-09 23:48:38,985 INFO  [stdout] (default task-4)     into
+2015-11-09 23:48:38,985 INFO  [stdout] (default task-4)         Player
+2015-11-09 23:48:38,986 INFO  [stdout] (default task-4)         (birth, height, name, team_id) 
+2015-11-09 23:48:38,986 INFO  [stdout] (default task-4)     values
+2015-11-09 23:48:38,986 INFO  [stdout] (default task-4)         (?, ?, ?, ?)
+2015-11-09 23:48:38,987 INFO  [stdout] (default task-4) Hibernate: 
+2015-11-09 23:48:38,987 INFO  [stdout] (default task-4)     insert 
+2015-11-09 23:48:38,987 INFO  [stdout] (default task-4)     into
+2015-11-09 23:48:38,988 INFO  [stdout] (default task-4)         Player
+2015-11-09 23:48:38,988 INFO  [stdout] (default task-4)         (birth, height, name, team_id) 
+2015-11-09 23:48:38,988 INFO  [stdout] (default task-4)     values
+2015-11-09 23:48:38,988 INFO  [stdout] (default task-4)         (?, ?, ?, ?)
+2015-11-09 23:48:38,989 INFO  [stdout] (default task-4) Hibernate: 
+2015-11-09 23:48:38,989 INFO  [stdout] (default task-4)     insert 
+2015-11-09 23:48:38,989 INFO  [stdout] (default task-4)     into
+2015-11-09 23:48:38,989 INFO  [stdout] (default task-4)         Player
+2015-11-09 23:48:38,989 INFO  [stdout] (default task-4)         (birth, height, name, team_id) 
+2015-11-09 23:48:38,989 INFO  [stdout] (default task-4)     values
+2015-11-09 23:48:38,989 INFO  [stdout] (default task-4)         (?, ?, ?, ?)
+2015-11-09 23:48:38,991 INFO  [stdout] (default task-4) Hibernate: 
+2015-11-09 23:48:38,991 INFO  [stdout] (default task-4)     insert 
+2015-11-09 23:48:38,991 INFO  [stdout] (default task-4)     into
+2015-11-09 23:48:38,991 INFO  [stdout] (default task-4)         Player
+2015-11-09 23:48:38,991 INFO  [stdout] (default task-4)         (birth, height, name, team_id) 
+2015-11-09 23:48:38,991 INFO  [stdout] (default task-4)     values
+2015-11-09 23:48:38,991 INFO  [stdout] (default task-4)         (?, ?, ?, ?)
+2015-11-09 23:48:38,993 INFO  [stdout] (default task-4) Hibernate: 
+2015-11-09 23:48:38,993 INFO  [stdout] (default task-4)     insert 
+2015-11-09 23:48:38,993 INFO  [stdout] (default task-4)     into
+2015-11-09 23:48:38,993 INFO  [stdout] (default task-4)         Player
+2015-11-09 23:48:38,993 INFO  [stdout] (default task-4)         (birth, height, name, team_id) 
+2015-11-09 23:48:38,993 INFO  [stdout] (default task-4)     values
+2015-11-09 23:48:38,993 INFO  [stdout] (default task-4)         (?, ?, ?, ?)
+2015-11-09 23:48:38,995 INFO  [stdout] (default task-4) Hibernate: 
+2015-11-09 23:48:38,995 INFO  [stdout] (default task-4)     insert 
+2015-11-09 23:48:38,996 INFO  [stdout] (default task-4)     into
+2015-11-09 23:48:38,996 INFO  [stdout] (default task-4)         Player
+2015-11-09 23:48:38,996 INFO  [stdout] (default task-4)         (birth, height, name, team_id) 
+2015-11-09 23:48:38,996 INFO  [stdout] (default task-4)     values
+2015-11-09 23:48:38,996 INFO  [stdout] (default task-4)         (?, ?, ?, ?)
+2015-11-09 23:48:38,997 INFO  [stdout] (default task-4) Hibernate: 
+2015-11-09 23:48:38,998 INFO  [stdout] (default task-4)     insert 
+2015-11-09 23:48:38,998 INFO  [stdout] (default task-4)     into
+2015-11-09 23:48:38,998 INFO  [stdout] (default task-4)         Player
+2015-11-09 23:48:38,998 INFO  [stdout] (default task-4)         (birth, height, name, team_id) 
+2015-11-09 23:48:38,998 INFO  [stdout] (default task-4)     values
+2015-11-09 23:48:38,998 INFO  [stdout] (default task-4)         (?, ?, ?, ?)
+2015-11-09 23:50:06,167 INFO  [stdout] (default task-5) In the EJB. Height = 1.0
+2015-11-09 23:50:06,314 INFO  [stdout] (default task-5) Hibernate: 
+2015-11-09 23:50:06,314 INFO  [stdout] (default task-5)     select
+2015-11-09 23:50:06,314 INFO  [stdout] (default task-5)         player0_.id as id1_0_,
+2015-11-09 23:50:06,315 INFO  [stdout] (default task-5)         player0_.birth as birth2_0_,
+2015-11-09 23:50:06,315 INFO  [stdout] (default task-5)         player0_.height as height3_0_,
+2015-11-09 23:50:06,315 INFO  [stdout] (default task-5)         player0_.name as name4_0_,
+2015-11-09 23:50:06,315 INFO  [stdout] (default task-5)         player0_.team_id as team_id5_0_ 
+2015-11-09 23:50:06,315 INFO  [stdout] (default task-5)     from
+2015-11-09 23:50:06,315 INFO  [stdout] (default task-5)         Player player0_ 
+2015-11-09 23:50:06,315 INFO  [stdout] (default task-5)     where
+2015-11-09 23:50:06,315 INFO  [stdout] (default task-5)         player0_.height>=?
+2015-11-09 23:50:06,332 INFO  [stdout] (default task-5) Hibernate: 
+2015-11-09 23:50:06,332 INFO  [stdout] (default task-5)     select
+2015-11-09 23:50:06,332 INFO  [stdout] (default task-5)         team0_.id as id1_1_0_,
+2015-11-09 23:50:06,332 INFO  [stdout] (default task-5)         team0_.address as address2_1_0_,
+2015-11-09 23:50:06,332 INFO  [stdout] (default task-5)         team0_.name as name3_1_0_,
+2015-11-09 23:50:06,332 INFO  [stdout] (default task-5)         team0_.presidentname as presiden4_1_0_ 
+2015-11-09 23:50:06,333 INFO  [stdout] (default task-5)     from
+2015-11-09 23:50:06,333 INFO  [stdout] (default task-5)         Team team0_ 
+2015-11-09 23:50:06,333 INFO  [stdout] (default task-5)     where
+2015-11-09 23:50:06,333 INFO  [stdout] (default task-5)         team0_.id=?
+2015-11-09 23:50:06,349 INFO  [stdout] (default task-5) Hibernate: 
+2015-11-09 23:50:06,349 INFO  [stdout] (default task-5)     select
+2015-11-09 23:50:06,349 INFO  [stdout] (default task-5)         team0_.id as id1_1_0_,
+2015-11-09 23:50:06,349 INFO  [stdout] (default task-5)         team0_.address as address2_1_0_,
+2015-11-09 23:50:06,349 INFO  [stdout] (default task-5)         team0_.name as name3_1_0_,
+2015-11-09 23:50:06,349 INFO  [stdout] (default task-5)         team0_.presidentname as presiden4_1_0_ 
+2015-11-09 23:50:06,349 INFO  [stdout] (default task-5)     from
+2015-11-09 23:50:06,349 INFO  [stdout] (default task-5)         Team team0_ 
+2015-11-09 23:50:06,349 INFO  [stdout] (default task-5)     where
+2015-11-09 23:50:06,350 INFO  [stdout] (default task-5)         team0_.id=?
+2015-11-09 23:50:06,351 INFO  [stdout] (default task-5) Hibernate: 
+2015-11-09 23:50:06,351 INFO  [stdout] (default task-5)     select
+2015-11-09 23:50:06,351 INFO  [stdout] (default task-5)         team0_.id as id1_1_0_,
+2015-11-09 23:50:06,351 INFO  [stdout] (default task-5)         team0_.address as address2_1_0_,
+2015-11-09 23:50:06,351 INFO  [stdout] (default task-5)         team0_.name as name3_1_0_,
+2015-11-09 23:50:06,351 INFO  [stdout] (default task-5)         team0_.presidentname as presiden4_1_0_ 
+2015-11-09 23:50:06,351 INFO  [stdout] (default task-5)     from
+2015-11-09 23:50:06,351 INFO  [stdout] (default task-5)         Team team0_ 
+2015-11-09 23:50:06,351 INFO  [stdout] (default task-5)     where
+2015-11-09 23:50:06,352 INFO  [stdout] (default task-5)         team0_.id=?
+2015-11-09 23:50:06,353 INFO  [stdout] (default task-5) Hibernate: 
+2015-11-09 23:50:06,353 INFO  [stdout] (default task-5)     select
+2015-11-09 23:50:06,353 INFO  [stdout] (default task-5)         team0_.id as id1_1_0_,
+2015-11-09 23:50:06,353 INFO  [stdout] (default task-5)         team0_.address as address2_1_0_,
+2015-11-09 23:50:06,353 INFO  [stdout] (default task-5)         team0_.name as name3_1_0_,
+2015-11-09 23:50:06,353 INFO  [stdout] (default task-5)         team0_.presidentname as presiden4_1_0_ 
+2015-11-09 23:50:06,353 INFO  [stdout] (default task-5)     from
+2015-11-09 23:50:06,353 INFO  [stdout] (default task-5)         Team team0_ 
+2015-11-09 23:50:06,354 INFO  [stdout] (default task-5)     where
+2015-11-09 23:50:06,354 INFO  [stdout] (default task-5)         team0_.id=?
