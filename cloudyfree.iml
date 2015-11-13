@@ -19,8 +19,10 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="JBoss 9.0.2.Final" level="application_server_libraries" />
     <orderEntry type="module" module-name="EJB" />
     <orderEntry type="module" module-name="JPA" />
+    <orderEntry type="library" name="ejb-3.2" level="application" />
+    <orderEntry type="library" name="Java EE 6-Java EE 6" level="project" />
+    <orderEntry type="library" name="json_simple-1.1" level="application" />
   </component>
 </module>

@@ -16,7 +16,7 @@ public class Playlist implements Serializable {
     private String name;
     @ManyToOne
     private User owner;
-    @ManyToMany(mappedBy = "playlists")
+    @ManyToMany(mappedBy = "playlists", fetch = FetchType.EAGER, cascade = CascadeType.PERSIST)
     private Collection<Music> musics;
 
     public Playlist(String name, User owner) {

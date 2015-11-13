@@ -7,10 +7,10 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
-    <title></title>
-  </head>
-  <body>
-    <h1>It Works!</h1>
-  </body>
+    <head>
+        <title>Cloudyfree</title>
+    </head>
+    <body>
+        <jsp:forward page="login" />
+    </body>
 </html>

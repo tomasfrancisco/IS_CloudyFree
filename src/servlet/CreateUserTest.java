@@ -18,7 +18,6 @@ public class CreateUserTest extends HttpServlet {
     @EJB
     UserRemote ejbremote;
 
-
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
     }
@@ -28,8 +27,10 @@ public class CreateUserTest extends HttpServlet {
         response.setContentType("text/html");
 
         if (request.getParameter("email") != null && request.getParameter("password") != null) {
-            ejbremote.createUser(request.getParameter("email"), request.getParameter("password"));
-            out.println("<h1>New user created successfuly!</h1>");
+            if(ejbremote.createUser(request.getParameter("email"), request.getParameter("password")) != null)
+                out.println("<h1>New user created successfuly!</h1>");
+            else
+                out.println("<h1>This email is already in use!</h1>");
         }
         else {
             out.println("<h1>Users</h1>");

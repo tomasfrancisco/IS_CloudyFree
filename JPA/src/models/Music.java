@@ -26,7 +26,7 @@ public class Music implements Serializable {
     @Column(name = "path")
     @Basic
     private String path;
-    @ManyToMany
+    @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.PERSIST)
     private Collection<Playlist> playlists;
     @ManyToOne
     private User user;
@@ -37,6 +37,9 @@ public class Music implements Serializable {
         this.album = album;
         this.year = year;
         this.path = path;
+    }
+
+    public Music() {
     }
 
     public Long getId() {
