@@ -423,5 +423,11 @@
         <deployment name="mysql-connector-java-5.1.37-bin.jar" runtime-name="mysql-connector-java-5.1.37-bin.jar">
             <content sha1="4e36a205cc9553129db1cb6b36399f84f266fdd7"/>
         </deployment>
+        <deployment name="cloudyfree" runtime-name="cloudyfree.war">
+            <fs-exploded path="/Users/tomasfrancisco/Documents/dev/cloudyfree/out/artifacts/cloudyfree"/>
+        </deployment>
+        <deployment name="cloudyfreeEAR" runtime-name="cloudyfreeEAR.war">
+            <fs-exploded path="/Users/tomasfrancisco/Documents/dev/cloudyfree/out/artifacts/cloudyfreeEAR"/>
+        </deployment>
     </deployments>
 </server>

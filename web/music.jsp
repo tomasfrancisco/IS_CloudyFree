@@ -5,6 +5,9 @@
   Time: 16:44
   To change this template use File | Settings | File Templates.
 --%>
+<% if(request.getSession().getAttribute("user") == null)
+  response.sendRedirect("login.jsp");
+%>
 <%@ taglib prefix="c"  uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
@@ -48,5 +51,7 @@
   <input type="text" name="path" value="${music.path}">
   <button id="edit-music">Edit Music</button>
 </form>
+
+<a href="logout">Logout</a>
 </body>
 </html>

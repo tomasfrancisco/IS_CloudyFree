@@ -5,6 +5,9 @@
   Time: 16:44
   To change this template use File | Settings | File Templates.
 --%>
+<% if(request.getSession().getAttribute("user") == null)
+  response.sendRedirect("login.jsp");
+%>
 <%@ taglib prefix="c"  uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
@@ -18,7 +21,8 @@
             if(data.error !== undefined) {
               $('body').prepend("<p>" + data.error + "</p>");
             } else {
-              $('form').attr('value', data.playlist.name);
+              $('form').attr('value', data.playlistName);
+              $('h1').html(data.playlistName);
             }
           });
           return false;
@@ -69,7 +73,7 @@
   <form>
     Name
     <input type="hidden" name="id" value="${playlist.id}">
-    <input type="text" name="title" value="${playlist.name}">
+    <input type="text" name="name" value="${playlist.name}">
     <button id="edit-playlist">Edit Playlist</button>
   </form>
   <div id="musics">
@@ -94,5 +98,6 @@
       </c:otherwise>
     </c:choose>
   </div>
+  <a href="logout">Logout</a>
 </body>
 </html>

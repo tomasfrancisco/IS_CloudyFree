@@ -31,18 +31,12 @@ public class Playlist extends HttpServlet {
         String id = request.getParameter("id");
         String name = request.getParameter("name");
 
-
-
-        if(user != null && title != null && path != null) {
+        if(user != null && name != null) {
             playlist = this.playlistService.getPlaylist(id);
-            if(music != null) {
-                if((music = this.playlistService.modifyPlaylist(playlist, )) != null) {
+            if(playlist != null) {
+                if((playlist = this.playlistService.modifyPlaylist(playlist, name)) != null) {
                     data.put("message", "Successfully created!");
-                    data.put("musicTitle", music.getTitle());
-                    data.put("musicArtist", music.getArtist());
-                    data.put("musicAlbum", music.getAlbum());
-                    data.put("musicYear", music.getYear());
-                    data.put("musicPath", music.getPath());
+                    data.put("playlistName", playlist.getName());
                     out.write(data.toJSONString());
                 } else {
                     data.put("error", "Something went wrong, try again!");

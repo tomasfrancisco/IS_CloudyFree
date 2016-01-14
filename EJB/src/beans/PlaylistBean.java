@@ -29,15 +29,15 @@ public class PlaylistBean implements PlaylistRemote {
         return null;
     }
 
-    public boolean modifyPlaylist(Playlist playlist, String newName) {
+    public Playlist modifyPlaylist(Playlist playlist, String newName) {
+        Playlist persistPlaylist = this.em.find(Playlist.class, playlist.getId());
         try {
-            playlist.setName(newName);
-            this.em.persist(playlist);
-            return true;
+            persistPlaylist.setName(newName);
+            return persistPlaylist;
         } catch (Exception e) {
-
+            e.printStackTrace();
         }
-        return false;
+        return null;
     }
 
     public boolean deletePlaylist(Playlist playlist) {
